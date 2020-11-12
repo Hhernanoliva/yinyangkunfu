@@ -1,0 +1,20 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 0;
+    p{
+        margin: 0.5em;
+
+    }
+    span{
+        img{
+            width: 20px;
+        } 
+    }  
+    @include respon(mobile){
+        padding: 30px 0;
+
+    }
+}

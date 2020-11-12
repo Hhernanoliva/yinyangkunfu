@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap');
+.navbar{
+    position: fixed;
+    top: 0; 
+    width: 100%;
+    z-index: 9;
+    transition: all 1s ease;
+    
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        .logo{
+            display:flex;
+            align-items: center;
+            img{
+                width: 100%;
+            }
+            h1{
+                font-family: 'Nunito', sans-serif;
+                letter-spacing: 1px;
+                color:$negro;
+            }
+        }
+        .menu{
+            display:flex;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            overflow: hidden;
+            transition: all 0.5s ease;
+            a{
+                text-decoration: none;
+                color:#f7efc0;
+                letter-spacing: 2px;
+                transition: all 0.5s ease;
+            }
+            a:hover{
+                text-shadow: 3px -2px 3px rgb(81,10,10);
+
+            }
+            .servicio-arrow{
+                a{
+
+                }
+            }
+        }
+        @import "../component/button";
+    }
+}
+.sticky{
+    background: rgba(123, 68, 107, 0.95);
+    transition: all 0.5s ease;
+    padding: 0;
+    box-shadow: 0px 1px 5px 3px rgba(88, 70, 136, 0.3);
+}
+@include respon(tablet){ ///////////////////// TABLET
+    .navbar{
+        padding: 4px 0;
+        .container{
+            .logo{
+                img{
+                    width: 70px;
+                    margin: 2px 0 2px 20px;
+                }
+                h1{
+                    margin: 0 0 0 10px;
+                    font-size: 1.2rem;
+                }
+            }
+            .menu{
+                margin: 0 30px 0 0;
+                a{  
+                    width: 100px;
+                    padding: 0 27px;
+                    font-size: 1rem;
+                }
+                a:hover{
+                    font-weight: bold;
+                    color: #fffcee;
+                }
+                .active-list{
+                    color: #222222;
+                    font-size: 5rem;
+                    padding: 0 40px 0 0;
+                  }
+            }
+        }
+    }
+}
+
+@include respon(mobile){ ///////// MOBILE
+    .navbar{
+        .container{
+            height: 50px;
+            .logo{
+                img{
+                    width: 45px;
+                    height: 38px;
+                    margin: 2px 10px 2px 20px;
+                }
+                h1{
+                    font-size: 1rem;
+                }
+            }
+            .menu{
+                display: none;
+            }
+        }
+    }
+}
