@@ -692,175 +692,100 @@ header {
     .footer {
       padding: 30px 0; } }
 
-.servicio-page {
-  background-color: #f5f5f5; }
-  .servicio-page li {
-    color: #da867d; }
-  .servicio-page p {
-    color: #212529; }
-  .servicio-page li p {
-    color: #212529; }
-  .servicio-page .container-servicio {
-    background-color: #fff; }
-    .servicio-page .container-servicio .contenido {
-      display: flex;
-      justify-content: space-around; }
-      .servicio-page .container-servicio .contenido .der {
-        display: flex;
-        justify-content: center;
-        align-items: center; }
-  @media (min-width: 767px) {
-    .servicio-page {
-      padding: 80px 50px 80px 50px; }
-      .servicio-page .espaciador {
-        padding: 30px 0; }
-      .servicio-page .container-servicio {
-        margin: 0 0 50px 0; }
-        .servicio-page .container-servicio .contenido {
-          padding: 40px 0 40px 0;
-          box-shadow: rgba(0, 0, 0, 0.18) 2px 2px 2px;
-          border-top: 1px inset rgba(0, 0, 0, 0.08);
-          border-left: 1px inset rgba(0, 0, 0, 0.08); }
-          .servicio-page .container-servicio .contenido .izq {
-            width: 100%;
-            min-width: 300px;
-            padding: 0 15px 0 30px; }
-            .servicio-page .container-servicio .contenido .izq h3 {
-              width: 125px;
-              margin: 0 0 25px 0;
-              font-size: 1.6rem; }
-            .servicio-page .container-servicio .contenido .izq h5 {
-              margin: 5px 0;
-              font-size: 1.1rem; }
-            .servicio-page .container-servicio .contenido .izq p {
-              font-size: 0.9rem;
-              line-height: 22px; }
-            .servicio-page .container-servicio .contenido .izq h1 {
-              margin: 10px 0;
-              font-size: 1.1rem; }
-            .servicio-page .container-servicio .contenido .izq li {
-              font-size: 0.9rem; }
-            .servicio-page .container-servicio .contenido .izq button {
-              margin: 20px 0 0 0; }
-            .servicio-page .container-servicio .contenido .izq #ebook {
-              margin: 50px 0 10px 0; }
-            .servicio-page .container-servicio .contenido .izq .ebooks {
-              display: flex; }
-              .servicio-page .container-servicio .contenido .izq .ebooks #button-ebook {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                height: 45px;
-                margin: 10px 20px 0 0; }
-          .servicio-page .container-servicio .contenido .der {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 100%;
-            max-width: 400px;
-            min-width: 190px;
-            padding: 0 10px; }
-            .servicio-page .container-servicio .contenido .der img {
-              width: 100%; } }
-  @media (max-width: 767px) {
-    .servicio-page {
-      padding: 60px 2px 60px 2px; }
-      .servicio-page .espaciador {
-        padding: 30px 0; }
-      .servicio-page .container-servicio {
-        margin: 0 3px 40px 3px; }
-        .servicio-page .container-servicio .contenido {
-          padding: 35px 3px;
-          box-shadow: rgba(0, 0, 0, 0.18) 2px 2px 2px;
-          border-top: 1px inset rgba(0, 0, 0, 0.08);
-          border-left: 1px inset rgba(0, 0, 0, 0.08);
-          flex-direction: column; }
-          .servicio-page .container-servicio .contenido .izq {
-            padding: 0 5px; }
-            .servicio-page .container-servicio .contenido .izq h3 {
-              width: 115px;
-              margin: 0 0 25px 0;
-              font-size: 1.5rem; }
-            .servicio-page .container-servicio .contenido .izq h5 {
-              margin: 5px 0;
-              font-size: 1rem; }
-            .servicio-page .container-servicio .contenido .izq p {
-              font-size: 0.8rem;
-              line-height: 22px; }
-            .servicio-page .container-servicio .contenido .izq h1 {
-              margin: 10px 0;
-              font-size: 1rem; }
-            .servicio-page .container-servicio .contenido .izq li {
-              font-size: 0.8rem; }
-            .servicio-page .container-servicio .contenido .izq button {
-              margin: 20px 0 0 0; }
-            .servicio-page .container-servicio .contenido .izq #ebook {
-              margin: 30px 0 10px 0; }
-          .servicio-page .container-servicio .contenido .der {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 100%;
-            min-width: 190px;
-            padding: 0 10px;
-            display: none; }
-            .servicio-page .container-servicio .contenido .der img {
-              display: none; } }
+section .Hung-Gar {
+  display: flex; }
+  section .Hung-Gar .container h2 {
+    font-weight: 700;
+    letter-spacing: 1px; }
+  section .Hung-Gar img {
+    background-color: grey; }
+
+section .Chang-Quan {
+  display: flex; }
+  section .Chang-Quan .container h2 {
+    margin: 0 0 0 20px; }
+  section .Chang-Quan .container p {
+    width: 700px;
+    margin: 20px; }
+  section .Chang-Quan img {
+    width: 300px;
+    height: 200px;
+    background-color: grey; }
+
+section .Tai-Chi {
+  display: flex; }
+  section .Tai-Chi .container h2 {
+    margin: 0 0 0 20px; }
+  section .Tai-Chi .container p {
+    width: 700px;
+    margin: 20px; }
+  section .Tai-Chi img {
+    width: 300px;
+    height: 200px;
+    background-color: grey; }
+
+section .Qigong {
+  display: flex; }
+  section .Qigong .container h2 {
+    margin: 0 0 0 20px; }
+  section .Qigong .container p {
+    width: 700px;
+    margin: 20px; }
+  section .Qigong img {
+    width: 300px;
+    height: 200px;
+    background-color: grey;
+    margin: 40px; }
 
 @media (min-width: 767px) {
-  .navbar .container .menu-servicios {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    overflow: hidden;
-    transition: all 0.5s ease; }
-    .navbar .container .menu-servicios a {
-      text-decoration: none;
-      color: #f7efc0;
-      letter-spacing: 2px;
-      transition: all 0.5s ease;
-      margin: 0 10px 0 0; }
-    .navbar .container .menu-servicios .volver {
-      margin: 0 60px 0 0; }
-    .navbar .container .menu-servicios a:hover {
-      text-shadow: 3px -2px 3px #510a0a; }
-    .navbar .container .menu-servicios .servicio-arrow .arrow {
-      display: flex;
-      transform: scaleX(-1);
-      margin: 0 5px 0 0; } }
-
-@media (max-width: 767px) {
-  .navbar .container .logo .logo-servicios {
-    width: 50px;
-    margin: 2px 3px 2px 10px; }
-  .navbar .container .logo h2 {
-    margin: 0 0 0 10px;
-    font-size: 1.33rem; }
-  .navbar .container .menu-servicios {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    overflow: hidden;
-    transition: all 0.5s ease; }
-    .navbar .container .menu-servicios a {
-      text-decoration: none;
-      color: #f7efc0;
-      letter-spacing: 2px;
-      transition: all 0.5s ease;
-      margin: 0 10px 0 0; }
-    .navbar .container .menu-servicios a:hover {
-      text-shadow: 3px -2px 3px #510a0a; }
-    .navbar .container .menu-servicios .servicio-arrow .arrow {
-      display: flex;
-      transform: scaleX(-1);
-      margin: 0 5px 0 0; } }
-
-.arrow {
-  display: flex;
-  transform: scaleX(-1);
-  margin: 0 -60px 0 0; }
+  .Hung-Gar {
+    display: flex; }
+    .Hung-Gar .container h2 {
+      margin: 20px 0 0 20px; }
+    .Hung-Gar .container p {
+      max-width: 700px;
+      margin: 20px; }
+    .Hung-Gar img {
+      width: 300px;
+      height: 200px;
+      background-color: grey;
+      margin: 40px; }
+  .Chang-Quan {
+    display: flex; }
+    .Chang-Quan .container h2 {
+      margin: 20 0 0 20px; }
+    .Chang-Quan .container p {
+      max-width: 700px;
+      margin: 20px; }
+    .Chang-Quan img {
+      width: 300px;
+      height: 200px;
+      background-color: grey;
+      margin: 40px; }
+  .Tai-Chi {
+    display: flex; }
+    .Tai-Chi .container h2 {
+      margin: 20 0 0 20px; }
+    .Tai-Chi .container p {
+      max-width: 700px;
+      margin: 20px; }
+    .Tai-Chi img {
+      width: 300px;
+      height: 200px;
+      background-color: grey;
+      margin: 40px; }
+  .Qigong {
+    display: flex; }
+    .Qigong .container h2 {
+      margin: 20 0 0 20px; }
+    .Qigong .container p {
+      max-width: 700px;
+      margin: 20px; }
+    .Qigong img {
+      width: 300px;
+      height: 200px;
+      background-color: grey;
+      margin: 40px; } }
 
 .menu-modal {
   position: fixed;
