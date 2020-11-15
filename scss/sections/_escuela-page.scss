@@ -3,256 +3,86 @@
 @import "../mixin/respon";
 
 
-.servicio-page{
-    background-color: #f5f5f5;
-    li {
-        color: #da867d; 
-    }
-    p{
-        color: $negro;
-    }
-    li p{
-        color: $negro;
-    }
-    .container-servicio{
-        background-color: #fff;
-        .contenido{
-            display: flex;
-            justify-content: space-around;
-            .izq{
+section{
+    .Hung-Gar{
+        display:flex;
 
-                h3{}
-                h5{
-                }
-            }
-            .der{
-                display: flex;
-                justify-content:center;
-                align-items: center;
-                img{
-                }
-            }
-        }  
+        title{
 
-    }
-    @include respon(tablet){
-        .espaciador{
-            padding: 30px 0;
         }
-        padding: 80px 50px 80px 50px;
-        .container-servicio{
-            margin: 0 0 50px 0;
-            .contenido{
-                padding: 40px 0 40px 0;
-                box-shadow: rgba(0, 0, 0, 0.18) 2px 2px 2px;
-                border-top: 1px inset rgba(0,0,0,.08);
-                border-left: 1px inset rgba(0,0,0,.08);
-                .izq{
-                width:100%;
-                min-width: 300px;
-                padding: 0 15px 0 30px;
-                    h3{ 
-                        width: 125px;
-                        margin: 0 0 25px 0;
-                        font-size: 1.6rem;
-                    }
-                    h5{
-                        margin: 5px 0;
-                        font-size: 1.1rem;
-                    }
-                    p{
-                        font-size: 0.9rem;
-                        line-height:22px
-                    }
-                    h1{
-                        margin: 10px 0;
-                        font-size: 1.1rem;
-                    }
-                    li{
-                        font-size: 0.9rem;
-                    }
-                    button{
-                        margin: 20px 0 0 0;
-                    }
-                    #ebook{
-                        margin: 50px 0 10px 0;
-                    }    
-                    .ebooks{
-                        display: flex;
-                        #button-ebook{
-                            display: flex;
-                            justify-content: center;
-                            align-items: center;
-                            height: 45px;
-                            margin: 10px 20px 0 0;
-                        }
-                    }
-                  
-                }
-                .der{
-                    display: flex;
-                    justify-content:center;
-                    align-items: center;
-                    width: 100%;
-                    max-width: 400px;
-                    min-width: 190px;
-                    padding: 0 10px;
-                    img{
-                        width: 100%;
-                    }
-                }
-            }
+
+        p{
+
         }
-     }
-    @include respon(mobile){
-        .espaciador{
-            padding: 30px 0;
-        }
-        padding: 60px 2px 60px 2px;
-        .container-servicio{
-            margin: 0 3px 40px 3px;
-            .contenido{
-                padding: 35px 3px;
-                box-shadow: rgba(0, 0, 0, 0.18) 2px 2px 2px;
-                border-top: 1px inset rgba(0,0,0,.08);
-                border-left: 1px inset rgba(0,0,0,.08);
-                flex-direction: column;
-                .izq{
-                padding: 0 5px;
-                    h3{ 
-                        width: 115px;
-                        margin: 0 0 25px 0;
-                        font-size: 1.5rem;
-                    }
-                    h5{
-                        margin: 5px 0;
-                        font-size: 1rem;
-                    }
-                    p{
-                        font-size: 0.8rem;
-                        line-height:22px
-                    }
-                    h1{
-                        margin: 10px 0;
-                        font-size: 1rem;
-                    }
-                    li{
-                        font-size: 0.8rem;
-                    }
-                    button{
-                        margin: 20px 0 0 0;
-                    }
-                    #ebook{
-                        margin: 30px 0 10px 0;
-                    }    
-                }
-                .der{
-                    display: flex;
-                    justify-content:center;
-                    align-items: center;
-                    width: 100%;
-                    min-width: 190px;
-                    padding: 0 10px;
-                    display: none;
-                    img{
-                        display: none;
-                    }
-                }
-            }
+
+        img{
+            width: 200px;
+            height: 200px;
+            background-color: grey;
         }
     }
+
+    .Chang-Quan{
+        display:flex;
+
+        title{
+
+        }
+
+        p{
+
+        }
+
+        img{
+            width: 200px;
+            height: 200px;
+            background-color: grey;
+        }
+    }
+
+    .Tai-Chi{
+        display:flex;
+
+        title{
+
+        }
+
+        p{
+
+        }
+
+        img{
+            width: 200px;
+            height: 200px;
+            background-color: grey;
+        }
+    }
+
+    .Qigong{
+        display:flex;
+
+        title{
+
+        }
+
+        p{
+
+        }
+
+        img{
+            width: 200px;
+            height: 200px;
+            background-color: grey;
+        }
+    }
+
 }
 
 
 @include respon(tablet){   
-    .navbar{
-        .container{
-            .logo{
-                .logo-servicios{
-                }
-                h2{
-                }
-            }
-            .menu-servicios{
-                display:flex;
-                justify-content: center;
-                text-align: center;
-                align-items: center;
-                overflow: hidden;
-                transition: all 0.5s ease;
-                a{
-                    text-decoration: none;
-                    color:#f7efc0;
-                    letter-spacing: 2px;
-                    transition: all 0.5s ease;
-                    margin: 0 10px 0 0;
-                }
-                .volver{
-                    margin: 0 60px 0 0;
-                }
-                a:hover{
-                    text-shadow: 3px -2px 3px rgb(81,10,10);
-
-                }
-                .servicio-arrow{
-                    .arrow{
-                        display: flex;
-                        transform: scaleX(-1);
-                        margin: 0 5px 0 0;
-                        
-                    }
-                }
-            }
-        }
-    }
-}
-
-
-@include respon(mobile){
-    .navbar{
-        .container{
-            .logo{
-                .logo-servicios{
-                    width: 50px;
-                    margin: 2px 3px 2px 10px;
-                }
-                h2{
-                    margin: 0 0 0 10px;
-                    font-size: 1.33rem;
-                }
-            }
-            .menu-servicios{
-                display:flex;
-                justify-content: center;
-                text-align: center;
-                align-items: center;
-                overflow: hidden;
-                transition: all 0.5s ease;
-                a{
-                    text-decoration: none;
-                    color:#f7efc0;
-                    letter-spacing: 2px;
-                    transition: all 0.5s ease;
-                    margin: 0 10px 0 0;
-                }
-                a:hover{
-                    text-shadow: 3px -2px 3px rgb(81,10,10);
     
-                }
-                .servicio-arrow{
-                    .arrow{
-                        display: flex;
-                        transform: scaleX(-1);
-                        margin: 0 5px 0 0;
-                        
-                      }
-                }
-            }
-        }
-    }
 }
-.arrow{
-    display: flex;
-    transform: scaleX(-1);
-    margin: 0 -60px 0 0;
-}
+
+
+@include respon(mobile){}
+    
