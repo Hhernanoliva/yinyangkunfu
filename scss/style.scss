@@ -7,8 +7,24 @@
 @import "./sections/escuela-page";
 @import "./component/menuModal";
 @import "./component/navbar";
-
+@import "./variable/colors";
+@import "./variable/font-size";
  
+
+
+.quote{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  p{
+    font-size: 1.3rem;
+  }
+}
+
+
+
+
 
 html {
     scroll-behavior: smooth;

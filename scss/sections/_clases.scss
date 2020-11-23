@@ -2,8 +2,61 @@
 @import "../variable/colors";
 
 .clases {
-    background-color: #373b43;
-    
+    background-color: $negro;
+    color: $blanco;
+    padding: 70px 0;
+    main{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        flex-direction: column;
+        .container-horario{
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            flex-direction: column;
+            .titulo{
+                h3{
+                    font-size: 1.6rem;
+                    letter-spacing: 2px;
+                }
+
+            }
+            .horario{
+                display: flex;
+                justify-content:center;
+                align-items: center;
+                flex-direction: column;
+                h4{
+                    margin: 0;
+                }
+            }
+        }
+        
+        .container-cards{
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            flex-direction: row;
+            width: 100%;
+            flex-wrap: wrap;
+            .cards-row{
+                display: flex;
+                justify-content:center;
+                align-items: center;
+                flex-direction: row;
+                .card{
+                    width: 200px;
+                    height: 270px;
+                    margin: 25px;
+                    background: $blanco;
+
+                }
+            }
+
+
+        }
+    }
     
     @include respon(tablet){
        
