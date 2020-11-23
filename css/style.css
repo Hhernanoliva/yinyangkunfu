@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap");
 header {
-  position: relative; }
+  position: relative;
+  box-shadow: rgba(255, 255, 255, 0.28) 2px 2px 3px; }
   header .background {
     background: transparent;
     transition: all 0.5s ease; }
@@ -20,7 +21,7 @@ header {
         height: 100%; }
         header .hero .container .container-hero h3, header .hero .container .container-hero h1 {
           font-weight: 700;
-          color: #212529;
+          color: #1b1212;
           letter-spacing: 1px; }
         header .hero .container .container-hero .container-btn {
           display: flex;
@@ -36,7 +37,7 @@ header {
               background-color: transparent;
               outline: none;
               text-transform: uppercase;
-              color: #f5f5f5;
+              color: whitesmoke;
               cursor: pointer;
               background-color: #e62420;
               text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
@@ -98,163 +99,46 @@ header {
             font-size: 0.9rem; } }
 
 .clases {
-  background-color: whitesmoke;
-  box-shadow: rgba(0, 0, 0, 0.18) 5px 5px 5px; }
-  .clases .container-title h4 {
-    font-family: 'Sansita Swashed', cursive;
-    margin: 0;
-    font-size: 1.5rem;
-    font-weight: 700;
-    letter-spacing: 1.2px; }
-  .clases .container-title .line {
-    border-bottom: 5px solid #ffeb3b;
-    width: 400px;
-    margin: 10px 0 0 -250px;
-    border-top: 1px inset rgba(0, 0, 0, 0.08);
-    border-left: 1px inset rgba(0, 0, 0, 0.08); }
-  .clases .container-text p {
-    text-align: center; }
-  .clases .container-main {
+  background-color: #1b1212;
+  color: whitesmoke;
+  padding: 70px 0; }
+  .clases main {
     display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    align-items: center; }
-    .clases .container-main .cards {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+    .clases main .container-horario {
       display: flex;
       justify-content: center;
       align-items: center;
-      text-align: end;
-      box-sizing: border-box; }
-      .clases .container-main .cards .container-card {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-direction: column;
-        background-color: #fff;
-        border-radius: 3px;
-        box-shadow: rgba(0, 0, 0, 0.18) 2px 2px 2px;
-        border-top: 1px inset rgba(0, 0, 0, 0.08);
-        border-left: 1px inset rgba(0, 0, 0, 0.08); }
-        .clases .container-main .cards .container-card .container-top {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          flex-direction: column; }
-        .clases .container-main .cards .container-card .container-content h3 {
-          text-shadow: black 0.1px 0.1px 0.8px;
-          text-align: center; }
-  @media (min-width: 767px) {
-    .clases {
-      padding: 80px 0 0 0; }
-      .clases .container-title {
-        padding: 0 80px; }
-        .clases .container-title h4 {
-          margin: 0 0 5px 0;
-          font-size: 2rem; }
-      .clases .container-text {
+      flex-direction: column; }
+      .clases main .container-horario .titulo h3 {
+        font-size: 1.6rem;
+        letter-spacing: 2px; }
+      .clases main .container-horario .horario {
         display: flex;
         justify-content: center;
-        width: 100%;
-        padding: 25px 0 40px 0; }
-        .clases .container-text p {
-          width: 820px;
-          font-size: 1rem;
-          letter-spacing: 1px;
-          line-height: 28px;
-          margin: 0 0 10px 0; }
-      .clases .container-main {
-        padding: 0 auto; }
-        .clases .container-main .cards {
-          margin: 0 0 100px 0;
-          width: 100%;
-          height: 361.075px; }
-          .clases .container-main .cards .container-card {
-            max-width: 223.08px;
-            min-width: 150px;
-            margin: 30px 20px;
-            padding: 20px 30px;
-            height: 100%; }
-            .clases .container-main .cards .container-card .container-top img {
-              width: 120px;
-              margin: 5px 0 0 0; }
-            .clases .container-main .cards .container-card .container-top h4 {
-              margin: 10px 0 5px 0;
-              font-size: 1.1rem;
-              text-align: center;
-              line-height: 27px;
-              letter-spacing: 0.5px; }
-            .clases .container-main .cards .container-card .container-top .line {
-              width: 60px;
-              border-bottom: solid 2px #cdbef6; }
-            .clases .container-main .cards .container-card .container-content {
-              text-align: left;
-              font-size: 0.8rem;
-              margin: 0 0 15px 0; }
-              .clases .container-main .cards .container-card .container-content h3 {
-                width: 100%;
-                margin: 7px 0 0 0;
-                font-weight: 500;
-                line-height: 20px;
-                letter-spacing: 0.3px; }
-                .clases .container-main .cards .container-card .container-content h3:nth-child(1) {
-                  margin: 0; }
-            .clases .container-main .cards .container-card .container-btn {
-              margin: 0 0 10px 0; }
-              .clases .container-main .cards .container-card .container-btn button {
-                font-weight: 600;
-                font-size: 0.7rem; } }
-  @media (max-width: 767px) {
-    .clases {
-      padding: 70px 10px 40px 10px; }
-      .clases .container-title {
-        padding: 0px 0 0 20px; }
-        .clases .container-title h4 {
-          font-size: 1.5rem;
-          margin: 0 0 7px 0; }
-        .clases .container-title .line {
-          margin: 5px 0 0 -285px; }
-      .clases .container-text p {
-        padding: 20px 20px 0 20px;
-        font-size: 1.1rem;
-        line-height: 23px;
-        letter-spacing: 0.3px; }
-      .clases .container-main {
-        margin: 30px; }
-        .clases .container-main .cards {
-          width: 100%;
-          flex-direction: column; }
-          .clases .container-main .cards .container-card {
-            width: 255px;
-            height: 360px;
-            margin: 0 0 30px 0; }
-            .clases .container-main .cards .container-card:nth-child(3) {
-              margin: 0; }
-            .clases .container-main .cards .container-card .container-top img {
-              width: 120px;
-              margin: 10px 0 0 0; }
-            .clases .container-main .cards .container-card .container-top h4 {
-              margin: 10px 0 5px 0;
-              font-size: 1.2rem;
-              text-align: center;
-              letter-spacing: 0.5px; }
-            .clases .container-main .cards .container-card .container-top .line {
-              width: 70px;
-              border-bottom: solid 2px #cdbef6; }
-            .clases .container-main .cards .container-card .container-content {
-              text-align: left;
-              font-size: 0.8rem; }
-              .clases .container-main .cards .container-card .container-content h3 {
-                margin: 0;
-                font-weight: 500;
-                line-height: 25px;
-                padding: 0 15px; }
-            .clases .container-main .cards .container-card:nth-child(2) h3 {
-              line-height: 22px; }
-            .clases .container-main .cards .container-card .container-btn {
-              margin: 0 0 20px 0; }
-        .clases .container-main .card:nth-last-child(1) .container-img {
-          display: flex;
-          flex-direction: column; } }
+        align-items: center;
+        flex-direction: column; }
+        .clases main .container-horario .horario h4 {
+          margin: 0; }
+    .clases main .container-cards {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      width: 100%;
+      flex-wrap: wrap; }
+      .clases main .container-cards .cards-row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row; }
+        .clases main .container-cards .cards-row .card {
+          width: 200px;
+          height: 270px;
+          margin: 25px;
+          background: whitesmoke; }
 
 .nosotros {
   display: flex;
@@ -692,6 +576,122 @@ header {
     .footer {
       padding: 30px 0; } }
 
+
+.servicio-page {
+  background-color: #f5f5f5; }
+  .servicio-page li {
+    color: #da867d; }
+  .servicio-page p {
+    color: #1b1212; }
+  .servicio-page li p {
+    color: #1b1212; }
+  .servicio-page .container-servicio {
+    background-color: #fff; }
+    .servicio-page .container-servicio .contenido {
+      display: flex;
+      justify-content: space-around; }
+      .servicio-page .container-servicio .contenido .der {
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+  @media (min-width: 767px) {
+    .servicio-page {
+      padding: 80px 50px 80px 50px; }
+      .servicio-page .espaciador {
+        padding: 30px 0; }
+      .servicio-page .container-servicio {
+        margin: 0 0 50px 0; }
+        .servicio-page .container-servicio .contenido {
+          padding: 40px 0 40px 0;
+          box-shadow: rgba(0, 0, 0, 0.18) 2px 2px 2px;
+          border-top: 1px inset rgba(0, 0, 0, 0.08);
+          border-left: 1px inset rgba(0, 0, 0, 0.08); }
+          .servicio-page .container-servicio .contenido .izq {
+            width: 100%;
+            min-width: 300px;
+            padding: 0 15px 0 30px; }
+            .servicio-page .container-servicio .contenido .izq h3 {
+              width: 125px;
+              margin: 0 0 25px 0;
+              font-size: 1.6rem; }
+            .servicio-page .container-servicio .contenido .izq h5 {
+              margin: 5px 0;
+              font-size: 1.1rem; }
+            .servicio-page .container-servicio .contenido .izq p {
+              font-size: 0.9rem;
+              line-height: 22px; }
+            .servicio-page .container-servicio .contenido .izq h1 {
+              margin: 10px 0;
+              font-size: 1.1rem; }
+            .servicio-page .container-servicio .contenido .izq li {
+              font-size: 0.9rem; }
+            .servicio-page .container-servicio .contenido .izq button {
+              margin: 20px 0 0 0; }
+            .servicio-page .container-servicio .contenido .izq #ebook {
+              margin: 50px 0 10px 0; }
+            .servicio-page .container-servicio .contenido .izq .ebooks {
+              display: flex; }
+              .servicio-page .container-servicio .contenido .izq .ebooks #button-ebook {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 45px;
+                margin: 10px 20px 0 0; }
+          .servicio-page .container-servicio .contenido .der {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            max-width: 400px;
+            min-width: 190px;
+            padding: 0 10px; }
+            .servicio-page .container-servicio .contenido .der img {
+              width: 100%; } }
+  @media (max-width: 767px) {
+    .servicio-page {
+      padding: 60px 2px 60px 2px; }
+      .servicio-page .espaciador {
+        padding: 30px 0; }
+      .servicio-page .container-servicio {
+        margin: 0 3px 40px 3px; }
+        .servicio-page .container-servicio .contenido {
+          padding: 35px 3px;
+          box-shadow: rgba(0, 0, 0, 0.18) 2px 2px 2px;
+          border-top: 1px inset rgba(0, 0, 0, 0.08);
+          border-left: 1px inset rgba(0, 0, 0, 0.08);
+          flex-direction: column; }
+          .servicio-page .container-servicio .contenido .izq {
+            padding: 0 5px; }
+            .servicio-page .container-servicio .contenido .izq h3 {
+              width: 115px;
+              margin: 0 0 25px 0;
+              font-size: 1.5rem; }
+            .servicio-page .container-servicio .contenido .izq h5 {
+              margin: 5px 0;
+              font-size: 1rem; }
+            .servicio-page .container-servicio .contenido .izq p {
+              font-size: 0.8rem;
+              line-height: 22px; }
+            .servicio-page .container-servicio .contenido .izq h1 {
+              margin: 10px 0;
+              font-size: 1rem; }
+            .servicio-page .container-servicio .contenido .izq li {
+              font-size: 0.8rem; }
+            .servicio-page .container-servicio .contenido .izq button {
+              margin: 20px 0 0 0; }
+            .servicio-page .container-servicio .contenido .izq #ebook {
+              margin: 30px 0 10px 0; }
+          .servicio-page .container-servicio .contenido .der {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            min-width: 190px;
+            padding: 0 10px;
+            display: none; }
+            .servicio-page .container-servicio .contenido .der img {
+              display: none; } }
+=======
 section .Hung-Gar {
   display: flex; }
   section .Hung-Gar .container h2 {
@@ -699,6 +699,7 @@ section .Hung-Gar {
     letter-spacing: 1px; }
   section .Hung-Gar img {
     background-color: grey; }
+
 
 section .Chang-Quan {
   display: flex; }
@@ -876,21 +877,26 @@ section .Qigong {
       .navbar .container .logo h1 {
         font-family: 'Nunito', sans-serif;
         letter-spacing: 1px;
-        color: #212529; }
+        color: #1b1212; }
     .navbar .container .menu {
       display: flex;
       justify-content: center;
       text-align: center;
       align-items: center;
       overflow: hidden;
-      transition: all 0.5s ease; }
+      transition: all 0.2s ease; }
       .navbar .container .menu a {
         text-decoration: none;
-        color: #f7efc0;
+        color: #1b1212;
         letter-spacing: 2px;
-        transition: all 0.5s ease; }
+        transition: all 0.5s ease;
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+        transition: all 0.2s ease; }
       .navbar .container .menu a:hover {
-        text-shadow: 3px -2px 3px #510a0a; }
+        text-shadow: 0.1px 0.1px 1px #ff7575;
+        font-weight: bold;
+        color: #353535; }
     .navbar .container .buttonBurguer {
       background-color: transparent;
       border: none;
@@ -939,7 +945,7 @@ section .Qigong {
       stroke-width: 6; }
 
 .sticky {
-  background: rgba(123, 68, 107, 0.95);
+  background: rgba(255, 255, 255, 0.95);
   transition: all 0.5s ease;
   padding: 0;
   box-shadow: 0px 1px 5px 3px rgba(88, 70, 136, 0.3); }
@@ -949,7 +955,7 @@ section .Qigong {
     padding: 4px 0; }
     .navbar .container .logo img {
       width: 70px;
-      margin: 2px 0 2px 20px; }
+      margin: 2px 10px 2px 25px; }
     .navbar .container .logo h1 {
       margin: 0 0 0 10px;
       font-size: 1.2rem; }
@@ -958,10 +964,9 @@ section .Qigong {
       .navbar .container .menu a {
         width: 100px;
         padding: 0 27px;
-        font-size: 1rem; }
+        font-size: 1.2rem; }
       .navbar .container .menu a:hover {
-        font-weight: bold;
-        color: #fffcee; }
+        font-size: 1.5rem; }
       .navbar .container .menu .active-list {
         color: #222222;
         font-size: 5rem;
@@ -979,6 +984,14 @@ section .Qigong {
     .navbar .container .menu {
       display: none; } }
 
+.quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+  .quote p {
+    font-size: 1.3rem; }
+
 html {
   scroll-behavior: smooth; }
 
@@ -988,39 +1001,39 @@ body {
 
 p::selection {
   background-color: rgba(123, 68, 107, 0.8);
-  color: #f5f5f5; }
+  color: whitesmoke; }
 
 h1::selection {
   background-color: rgba(123, 68, 107, 0.8);
-  color: #f5f5f5; }
+  color: whitesmoke; }
 
 h2::selection {
   background-color: rgba(123, 68, 107, 0.8);
-  color: #f5f5f5; }
+  color: whitesmoke; }
 
 h3::selection {
   background-color: rgba(123, 68, 107, 0.8);
-  color: #f5f5f5; }
+  color: whitesmoke; }
 
 h4::selection {
   background-color: rgba(123, 68, 107, 0.8);
-  color: #f5f5f5; }
+  color: whitesmoke; }
 
 h5::selection {
   background-color: rgba(123, 68, 107, 0.8);
-  color: #f5f5f5; }
+  color: whitesmoke; }
 
 li::selection {
   background-color: rgba(123, 68, 107, 0.8);
-  color: #f5f5f5; }
+  color: whitesmoke; }
 
 span::selection {
   background-color: rgba(123, 68, 107, 0.8);
-  color: #f5f5f5; }
+  color: whitesmoke; }
 
 a::selection {
   background-color: rgba(123, 68, 107, 0.8);
-  color: #f5f5f5; }
+  color: whitesmoke; }
 
 button {
   --top: 50%;

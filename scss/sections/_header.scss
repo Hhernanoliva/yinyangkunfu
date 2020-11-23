@@ -1,9 +1,8 @@
 @import "./scss/mixin/respon";
 @import "../variable/colors";
-
 header{
     position: relative;
-    
+    box-shadow: rgba(255, 255, 255, 0.28) 2px 2px 3px;
     .background{
         background: transparent; 
         transition: all 0.5s ease;
