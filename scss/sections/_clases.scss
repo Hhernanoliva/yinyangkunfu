@@ -45,11 +45,26 @@
                 justify-content:center;
                 align-items: center;
                 flex-direction: row;
-                .card{
-                    width: 200px;
-                    height: 270px;
+                .card{ 
+                    display: flex;
+                    justify-content:center;
+                    align-items: center;
+                    flex-direction: column;
+                    background-color: $negro;
+                    height: 350px;
                     margin: 25px;
-                    background: $blanco;
+                    .container-img{
+                        width: 300px;
+                        height: 300px;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                    .container-content{
+                        h3{
+                            text-transform: uppercase;
+                        }
+                    }
 
                 }
             }
