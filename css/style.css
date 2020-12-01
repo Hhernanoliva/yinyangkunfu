@@ -113,7 +113,7 @@ header {
       align-items: center;
       flex-direction: column; }
       .clases main .container-horario .titulo h3 {
-        font-size: 1.6rem;
+        font-size: 2.2rem;
         letter-spacing: 2px; }
       .clases main .container-horario .horario {
         display: flex;
@@ -121,7 +121,10 @@ header {
         align-items: center;
         flex-direction: column; }
         .clases main .container-horario .horario h4 {
+          font-size: 1.5rem;
           margin: 0; }
+        .clases main .container-horario .horario p {
+          font-size: 1.2rem; }
     .clases main .container-cards {
       display: flex;
       justify-content: center;
@@ -135,21 +138,56 @@ header {
         align-items: center;
         flex-direction: row; }
         .clases main .container-cards .cards-row .card {
+          position: relative;
           display: flex;
           justify-content: center;
           align-items: center;
           flex-direction: column;
           background-color: #1b1212;
-          height: 350px;
           margin: 25px;
           cursor: pointer; }
           .clases main .container-cards .cards-row .card .container-img {
             width: 300px;
-            height: 300px; }
-            .clases main .container-cards .cards-row .card .container-img img {
-              width: 100%; }
-          .clases main .container-cards .cards-row .card .container-content h3 {
-            text-transform: uppercase; }
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden; }
+          .clases main .container-cards .cards-row .card .overlay {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 300px;
+            width: 300px;
+            opacity: 0;
+            transition: .5s ease;
+            background-color: #1f1717c2; }
+            .clases main .container-cards .cards-row .card .overlay .text {
+              color: white;
+              font-size: 1.1rem;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              -webkit-transform: translate(-50%, -50%);
+              -ms-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%);
+              text-align: center;
+              width: 250px;
+              letter-spacing: 1.2px; }
+            .clases main .container-cards .cards-row .card .overlay:hover {
+              opacity: 1; }
+            .clases main .container-cards .cards-row .card .overlay img {
+              width: 300px;
+              height: 300px; }
+          .clases main .container-cards .cards-row .card .container-content {
+            display: flex;
+            justify-content: center;
+            flex-direction: column; }
+            .clases main .container-cards .cards-row .card .container-content h3 {
+              text-align: center;
+              text-transform: uppercase; }
 
 .escuela {
   background-color: #1b1212;
