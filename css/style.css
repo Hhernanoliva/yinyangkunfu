@@ -141,7 +141,8 @@ header {
           flex-direction: column;
           background-color: #1b1212;
           height: 350px;
-          margin: 25px; }
+          margin: 25px;
+          cursor: pointer; }
           .clases main .container-cards .cards-row .card .container-img {
             width: 300px;
             height: 300px; }
