@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./css/style.css">
-    <script type="text/javascript" src="./js/app.js"></script>
+    <script type="text/javascript" src="./app.js"></script>
     <title>Escuela Tradicional | Yin Yang Kung Fu</title>
 </head>
 <body onload="load()">
@@ -92,20 +92,29 @@
                 </div>
                 <div class="container-cards">
                     <div class="cards-row">
-                        <div class="card" id="hungar" onclick=()>
+                        <div class="card" id="hungar" onClick="parent.location='./hungar.html'">
                             <div class="container-img">
                                 <img src="./img/hunggar.jpg" alt="">
+                                <div class="overlay">
+                                    <p class="text">Boxeo sureño que enfatiza técnicas compactas y poderosas. Un boxeo duro y contundente. Recomendado para gente fuerte y exigente.</p>
+                                </div>
+                                
                             </div>
                             <div class="container-content">
                                 <h3>Hung Gar</h3>
+                                <button>Más Información</button>
                             </div>
                         </div>
                         <div class="card">
                             <div class="container-img">
                                 <img src="./img/chen.jpg" alt="">
+                                <div class="overlay">
+                                    <p class="text">Boxeo norteño que enfatiza el desarrollo de las habilidades corporales y destreza, un boxeo largo, elegante y fluido. Recomendado para gente ágil y dinámica.</p>
+                                </div>
                             </div>
                             <div class="container-content">
                                 <h3>Chuan Quan</h3>
+                                <button>Más Información</button>
                             </div>
                         </div>
                     </div>
@@ -113,17 +122,25 @@
                         <div class="card">
                             <div class="container-img">
                                 <img src="./img/taichi.jpg" alt="">
+                                <div class="overlay">
+                                    <p class="text">La práctica tradicional de este estilo aporta al estudiante un método para desarrollar la energía interior, relajación, autoconciencia, defensa personal, dominio del cuerpo y mente.</p>
+                                </div>
                             </div>
                             <div class="container-content">
                                 <h3>Tai Chi</h3>
+                                <button>Más Información</button>
                             </div>
                         </div>
                         <div class="card">
                             <div class="container-img">
                                 <img src="./img/chikung.jpg" alt="">
+                                <div class="overlay">
+                                    <p class="text">Tambien conocido como Chi Kung, es una práctica tradicional de la gimnasia china potencia la salud e incrementa la energía interna del estudiante.</p>
+                                </div>
                             </div>
                             <div class="container-content">
-                                <h3>Chi Kung</h3>
+                                <h3>Qi Gong</h3>
+                                <button>Más Información</button>
                             </div>
                         </div>
                     </div>
