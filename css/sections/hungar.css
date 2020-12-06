@@ -1,0 +1,22 @@
+section .hungar {
+  display: flex; }
+  section .hungar .container-content h2 {
+    font-weight: 700;
+    letter-spacing: 1px; }
+  section .hungar img {
+    background-color: grey;
+    width: 100%; }
+
+@media (min-width: 767px) {
+  .Hung-Gar {
+    display: flex; }
+    .Hung-Gar .container h2 {
+      margin: 20px 0 0 20px; }
+    .Hung-Gar .container p {
+      max-width: 700px;
+      margin: 20px; }
+    .Hung-Gar img {
+      width: 300px;
+      height: 200px;
+      background-color: grey;
+      margin: 40px; } }

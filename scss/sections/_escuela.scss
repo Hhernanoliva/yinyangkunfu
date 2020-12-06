@@ -4,7 +4,13 @@
 .escuela{
     background-color: $negro;
     color: $blanco;  
-    @include respon(tablet){    
+
+    .container-titulo{
+        
+
+    }
+    @include respon(tablet){  
+        padding: 80px 0;  
     }
     @include respon(mobile){
     }
