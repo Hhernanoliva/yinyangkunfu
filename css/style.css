@@ -107,24 +107,31 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column; }
-    .clases main .container-horario {
+    .clases main .container-clases {
       display: flex;
-      justify-content: center;
+      justify-content: space-around;
       align-items: center;
-      flex-direction: column; }
-      .clases main .container-horario .titulo h3 {
-        font-size: 2.2rem;
-        letter-spacing: 2px; }
-      .clases main .container-horario .horario {
+      width: 100%; }
+      .clases main .container-clases .titulo {
         display: flex;
         justify-content: center;
-        align-items: center;
-        flex-direction: column; }
-        .clases main .container-horario .horario h4 {
-          font-size: 1.5rem;
+        align-items: center; }
+        .clases main .container-clases .titulo h3 {
+          font-size: 2.2rem;
+          letter-spacing: 2px;
           margin: 0; }
-        .clases main .container-horario .horario p {
-          font-size: 1.2rem; }
+        .clases main .container-clases .titulo .horario {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column; }
+          .clases main .container-clases .titulo .horario h4 {
+            font-size: 1.5rem;
+            margin: 0; }
+          .clases main .container-clases .titulo .horario p {
+            font-size: 1.2rem; }
+      .clases main .container-clases img {
+        width: 200px; }
     .clases main .container-cards {
       display: flex;
       justify-content: center;
@@ -192,6 +199,9 @@ header {
 .escuela {
   background-color: #1b1212;
   color: whitesmoke; }
+  @media (min-width: 767px) {
+    .escuela {
+      padding: 80px 0; } }
 
 .contacto {
   background-color: #f5f5f5;
@@ -376,101 +386,6 @@ header {
     .footer {
       padding: 30px 0; } }
 
-section .Hung-Gar {
-  display: flex; }
-  section .Hung-Gar .container h2 {
-    font-weight: 700;
-    letter-spacing: 1px; }
-  section .Hung-Gar img {
-    background-color: grey; }
-
-section .Chang-Quan {
-  display: flex; }
-  section .Chang-Quan .container h2 {
-    margin: 0 0 0 20px; }
-  section .Chang-Quan .container p {
-    width: 700px;
-    margin: 20px; }
-  section .Chang-Quan img {
-    width: 300px;
-    height: 200px;
-    background-color: grey; }
-
-section .Tai-Chi {
-  display: flex; }
-  section .Tai-Chi .container h2 {
-    margin: 0 0 0 20px; }
-  section .Tai-Chi .container p {
-    width: 700px;
-    margin: 20px; }
-  section .Tai-Chi img {
-    width: 300px;
-    height: 200px;
-    background-color: grey; }
-
-section .Qigong {
-  display: flex; }
-  section .Qigong .container h2 {
-    margin: 0 0 0 20px; }
-  section .Qigong .container p {
-    width: 700px;
-    margin: 20px; }
-  section .Qigong img {
-    width: 300px;
-    height: 200px;
-    background-color: grey;
-    margin: 40px; }
-
-@media (min-width: 767px) {
-  .Hung-Gar {
-    display: flex; }
-    .Hung-Gar .container h2 {
-      margin: 20px 0 0 20px; }
-    .Hung-Gar .container p {
-      max-width: 700px;
-      margin: 20px; }
-    .Hung-Gar img {
-      width: 300px;
-      height: 200px;
-      background-color: grey;
-      margin: 40px; }
-  .Chang-Quan {
-    display: flex; }
-    .Chang-Quan .container h2 {
-      margin: 20 0 0 20px; }
-    .Chang-Quan .container p {
-      max-width: 700px;
-      margin: 20px; }
-    .Chang-Quan img {
-      width: 300px;
-      height: 200px;
-      background-color: grey;
-      margin: 40px; }
-  .Tai-Chi {
-    display: flex; }
-    .Tai-Chi .container h2 {
-      margin: 20 0 0 20px; }
-    .Tai-Chi .container p {
-      max-width: 700px;
-      margin: 20px; }
-    .Tai-Chi img {
-      width: 300px;
-      height: 200px;
-      background-color: grey;
-      margin: 40px; }
-  .Qigong {
-    display: flex; }
-    .Qigong .container h2 {
-      margin: 20 0 0 20px; }
-    .Qigong .container p {
-      max-width: 700px;
-      margin: 20px; }
-    .Qigong img {
-      width: 300px;
-      height: 200px;
-      background-color: grey;
-      margin: 40px; } }
-
 .menu-modal {
   position: fixed;
   width: 100vw;
@@ -546,18 +461,20 @@ section .Qigong {
   top: 0;
   width: 100%;
   z-index: 9;
-  transition: all 1s ease; }
+  transition: all 1s ease;
+  background-color: white; }
   .navbar .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%; }
+    width: 100%;
+    max-height: 45px; }
     .navbar .container .logo {
       display: flex;
       align-items: center; }
       .navbar .container .logo img {
         width: 100%; }
-      .navbar .container .logo h1 {
+      .navbar .container .logo h3 {
         font-family: 'Nunito', sans-serif;
         letter-spacing: 1px;
         color: #1b1212; }
@@ -577,7 +494,7 @@ section .Qigong {
         font-weight: bold;
         transition: all 0.2s ease; }
       .navbar .container .menu a:hover {
-        text-shadow: 0.1px 0.1px 1px #ff7575;
+        text-shadow: 0.1px 0.1px 1px #1b1212;
         font-weight: bold;
         color: #353535; }
     .navbar .container .buttonBurguer {
@@ -637,9 +554,13 @@ section .Qigong {
   .navbar {
     padding: 4px 0; }
     .navbar .container .logo img {
-      width: 70px;
-      margin: 2px 10px 2px 25px; }
-    .navbar .container .logo h1 {
+      width: 45px;
+      margin: 2px 10px 2px 25px;
+      animation: 60s rotate360 infinite linear; }
+  @keyframes rotate360 {
+    to {
+      transform: rotate(360deg); } }
+    .navbar .container .logo h3 {
       margin: 0 0 0 10px;
       font-size: 1.2rem; }
     .navbar .container .menu {
@@ -649,7 +570,7 @@ section .Qigong {
         padding: 0 27px;
         font-size: 1.2rem; }
       .navbar .container .menu a:hover {
-        font-size: 1.5rem; }
+        font-size: 1.19rem; }
       .navbar .container .menu .active-list {
         color: #222222;
         font-size: 5rem;
@@ -673,7 +594,10 @@ section .Qigong {
   align-items: center;
   text-align: center; }
   .quote p {
-    font-size: 1.3rem; }
+    max-width: 600px;
+    letter-spacing: 1.5px;
+    font-size: 1.3rem;
+    line-height: 30px; }
 
 html {
   scroll-behavior: smooth; }
