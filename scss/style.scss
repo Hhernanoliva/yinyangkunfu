@@ -8,7 +8,8 @@
 @import "./component/navbar";
 @import "./variable/colors";
 @import "./variable/font-size";
- 
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,400;0,700;0,900;1,100&display=swap');
+
 
 
 .quote{
@@ -28,7 +29,13 @@
 }
 
 
-
+#map {
+  height: 250px;
+  /* The height is 400 pixels */
+  width: 250px;
+  background-color: white;
+  /* The width is the width of the web page */
+}    
 
 html {
     scroll-behavior: smooth;
