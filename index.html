@@ -1,25 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="copyright" content="">
-    <link rel="shortcut icon" href=""> 
+    <link rel="shortcut icon" href="">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.0.2/css/glide.core.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.0.2/css/glide.theme.css" />
     <link rel="stylesheet" href="./css/style.css">
     <script type="text/javascript" src="./app.js"></script>
     <title>Escuela Tradicional | Yin Yang Kung Fu</title>
 </head>
+
 <body onload="load()">
 
     <!--MENU-->
 
-    <div class="menu-modal" >
+    <div class="menu-modal">
         <a class="cerrarModal" href="#clases">Clases</a>
-        <a class="cerrarModal" href="#escuela">Escuela</a>                 
+        <a class="cerrarModal" href="#escuela">Escuela</a>
         <a class="cerrarModal" href="#contacto">Contacto</a>
         <a href=""><button class="btn-copy" onclick="location.href='mailto:';">CALL TO ACTION</button></a>
     </div>
@@ -29,23 +33,25 @@
     <nav class="navbar">
         <div class="container">
             <div class="logo">
-               <a href="#header"> <img src="./img/logo.png" alt=""></a>
-               <a href="#header"><h3 class="logo" >YIN YANG KUNG FU</h3></a>
+                <a href="#header"> <img src="./img/logo.png" alt=""></a>
+                <a href="#header">
+                    <h3 class="logo">YIN YANG KUNG FU</h3>
+                </a>
             </div>
             <div id="menu" class="menu">
                 <a class="navbar-list" href="#clases">Clases</a>
-                <a class="navbar-list" href="#escuela">Escuela</a>                  
+                <a class="navbar-list" href="#escuela">Escuela</a>
                 <a class="navbar-list" href="#contacto">Contacto</a>
             </div>
-            <button id="button" class="buttonBurguer btn-burger" aria-label="Main Menu" >
+            <button id="button" class="buttonBurguer btn-burger" aria-label="Main Menu">
                 <svg width="30" height="30" viewBox="0 0 100 100">
-                <path class="line line1" d="M 20,29.000046 H 80.000231 
+                    <path class="line line1" d="M 20,29.000046 H 80.000231 
                 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 
                 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 
                 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 
                 L 25.000021,25.000058" />
-                <path class="line line2" d="M 20,50 H 80" />
-                <path class="line line3" d="M 20,70.999954 H 80.000231 
+                    <path class="line line2" d="M 20,50 H 80" />
+                    <path class="line line3" d="M 20,70.999954 H 80.000231 
                 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 
                 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 
                 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 
@@ -58,8 +64,8 @@
     <!--HEADER-->
 
     <div id="bodyOverlay">
-        
-        <header class="header" id="header"> 
+
+        <header class="header" id="header">
             <div class="hero">
                 <div class="container">
                     <div class="container-hero">
@@ -69,8 +75,8 @@
                                 <a href="" target="_blank">
                                     <button>call to action</button>
                                 </a>
-                            </div>     
-                        </div>                   
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -83,15 +89,9 @@
                 <div class="container-clases">
                     <div class="titulo">
                         <h3>Clases</h3>
-                        <div class="horario">
-                            <h4>Horarios</h4>
-                            <p>Lunes, Miercoles, Viernes y Sabados</p>
-                            <p></p>
-                        </div>
-                    </div>   
-                    <img src="./img/logoHi.png" alt="">
-                    
-                    
+                        
+                    </div>
+                 
                 </div>
                 <div class="container-cards">
                     <div class="cards-row">
@@ -99,9 +99,10 @@
                             <div class="container-img">
                                 <img src="./img/hunggar.jpg" alt="">
                                 <div class="overlay">
-                                    <p class="text">Boxeo sureño que enfatiza técnicas compactas y poderosas. Un boxeo duro y contundente. Recomendado para gente fuerte y exigente.</p>
+                                    <p class="text">Boxeo sureño que enfatiza técnicas compactas y poderosas. Un boxeo
+                                        duro y contundente. Recomendado para gente fuerte y exigente.</p>
                                 </div>
-                                
+
                             </div>
                             <div class="container-content">
                                 <h3>Hung Gar</h3>
@@ -112,7 +113,9 @@
                             <div class="container-img">
                                 <img src="./img/chen.jpg" alt="">
                                 <div class="overlay">
-                                    <p class="text">Boxeo norteño que enfatiza el desarrollo de las habilidades corporales y destreza, un boxeo largo, elegante y fluido. Recomendado para gente ágil y dinámica.</p>
+                                    <p class="text">Boxeo norteño que enfatiza el desarrollo de las habilidades
+                                        corporales y destreza, un boxeo largo, elegante y fluido. Recomendado para gente
+                                        ágil y dinámica.</p>
                                 </div>
                             </div>
                             <div class="container-content">
@@ -126,7 +129,9 @@
                             <div class="container-img">
                                 <img src="./img/taichi.jpg" alt="">
                                 <div class="overlay">
-                                    <p class="text">La práctica tradicional de este estilo aporta al estudiante un método para desarrollar la energía interior, relajación, autoconciencia, defensa personal, dominio del cuerpo y mente.</p>
+                                    <p class="text">La práctica tradicional de este estilo aporta al estudiante un
+                                        método para desarrollar la energía interior, relajación, autoconciencia, defensa
+                                        personal, dominio del cuerpo y mente.</p>
                                 </div>
                             </div>
                             <div class="container-content">
@@ -138,7 +143,9 @@
                             <div class="container-img">
                                 <img src="./img/chikung.jpg" alt="">
                                 <div class="overlay">
-                                    <p class="text">Tambien conocido como Chi Kung, es una práctica tradicional de la gimnasia china potencia la salud e incrementa la energía interna del estudiante.</p>
+                                    <p class="text">Tambien conocido como Chi Kung, es una práctica tradicional de la
+                                        gimnasia china potencia la salud e incrementa la energía interna del estudiante.
+                                    </p>
                                 </div>
                             </div>
                             <div class="container-content">
@@ -148,74 +155,143 @@
                         </div>
                     </div>
                 </div>
+                <div class="container-horarios">
+                    <div class="horario">
+                        <h4>Horarios</h4>
+                        <p>Lunes, Miercoles, Viernes y Sabados. </p>
+                        <a href="">Ver mapa</a>
+                        <div id="map"></div>
+                    </div>
+                </div>
+
             </main>
         </section>
 
-        <!--QUOTE-->      
+        <!--QUOTE-->
 
         <blockquote class="quote">
-            <p> Trabajamos para mejorar y potenciar nuestras habilidades con una práctica sincera. Desarrollando el espíritu para tener una mente sana y un cuerpo fuerte. 
-                </p>
+            <p> Trabajamos para mejorar y potenciar nuestras habilidades con una práctica sincera. Desarrollando el
+                espíritu para tener una mente sana y un cuerpo fuerte.
+            </p>
         </blockquote>
 
         <!--ESCUELA-->
 
         <section id="escuela" class="escuela">
             <div class="container-titulo">
-                <h3>ESCUELA</h3>
+                <h2>ESCUELA</h2>
             </div>
             <div class="container-content">
-                <div class="container-first">
-                    <div class="container-presentacion">
-                        <p>
-                            La escuela Yin Yang Kung Fu fue creada en 2013 por el profesor Eduardo Mompel.
-                            Los estilos que se enseñan son Hung Gar, Tai Chi Chuan y Chang Quan, transmitido 
-                            de maestro a discípulo con el objetivo de mantener la cadena de transmisión del Kung Fu Tradicional. 
-                            Preservamos los conocimientos y generamos estudiantes comprometidos, para que tengan los conocimientos 
-                            y experiencias sintendose poseedores del WuShu antiguo.
-                        </p>
-                        <img src="./img/logoHi.png" style="width: 350px;" alt="">
-                    </div>
+                <div class="container-presentacion">
+                    <p>
+                        La escuela <strong>Yin Yang Kung Fu</strong> fue creada en 2013 por el profesor <strong>Eduardo
+                            Mompel.</strong>
+                        Los estilos que se enseñan son <strong>Hung Gar, Tai Chi Chuan y Chang Quan</strong>,
+                        transmitido
+                        de maestro a discípulo con el objetivo de mantener la cadena de transmisión del <strong>Kung Fu
+                            Tradicional.</strong>
+                        Preservamos los conocimientos y generamos estudiantes comprometidos, para que tengan los
+                        conocimientos
+                        y experiencias sintendose poseedores del<strong> WuShu antiguo.</strong>
+                    </p>
+                    <img src="./img/logoHi.png" style="width: 350px;" alt="">
                 </div>
-                <div class="container-second">
-                    <div class="container-eduardo">
-                        <h3>
+                <div class="container-eduardo">
+                    <img src="./img/eduardo.jpg" alt="">
+                    <div class="container-content">
+                        <h4>
                             PROFESOR EDUARDO MOMPEL
-                        </h3>
+                        </h4>
                         <p>
                             Director de la Escuela Yin Yang Kung Fu
-                            Se capacito en el sistema Hung Gar, Tai Chi Chuan estilo Yang y  Sun de la línea del Maestro Kwong Wing Lam durante 9 años 
+                            Se capacito en el sistema Hung Gar, Tai Chi Chuan estilo Yang y Sun de la
+                            línea del <strong> Maestro
+                                Kwong Wing Lam</strong> durante 9 años
                             de mano de su discípulo Sifu Gabriel Caceres.
-                            Actualmente profundizando sobre los estilos del Norte de China con el Maestro Jen- Cheng Chen, instructor del Maestro Adam 
-                            Hsu en Argentina.
-    
+                            Actualmente profundizando sobre los estilos del Norte de China con el <strong>Maestro Jen-
+                                Cheng
+                                Chen</strong> , instructor del <strong>Maestro Adam
+                                Hsu</strong> en Argentina.
+
                         </p>
+                        <button>Mas sobre Eduardo</button>
                     </div>
-                    <img src="./img/eduardo.jpg" alt="">
                 </div>
             </div>
-        </section>
-
-        <!--CONTACTO-->
-
-        <section id="contacto" class="contacto">
-           <div class="container-content">
-               <div class="container-redes">
-                   <img src="./img/facebook.png" alt="">
-                   <img src="./img/insta.png" alt="">
-                   <img src="./img/whatsapp.png" alt="">
-                   <img src="./img/youtube.png" alt="">
-               </div>
-           </div>
-        </section>
-
-        <!-- FOOTER --> 
-        
-        <section class="footer">
-            <p>© Copyright 2020 | Yin Yang Kung Fu</p>
-            <p>Diseño y Desarrollo Web por <a href="https://frontcatdev.web.app/" target="_blank">FrontCat </a><span><img src="./img/frontcat.svg" alt=""></span></p>
-        </section>
+            <div class="glide multi " style="width: 400px;">
+                <div class="glide__track slider" data-glide-el="track">
+                    <ul class="glide__slides">
+                        <li class="glide__slide">
+                            <div><img class="img-slider" src="./img/escuela/5.jpg" alt="">
+                            </div>
+                        </li>
+                        <li class="glide__slide">
+                            <div><img class="img-slider" src="./img/escuela/6.jpg" alt="">
+                            </div>
+                        </li>
+                        <li class="glide__slide">
+                            <div><img class="img-slider" src="./img/escuela/3.jpg" alt="">
+                            </div>
+                        </li>
+                        <li class="glide__slide">
+                            <div><img class="img-slider" src="./img/escuela/4.jpg" alt="">
+                            </div>
+                        </li>
+                        <li class="glide__slide">
+                            <div><img class="img-slider" src="./img/escuela/1.jpg" alt=""></div>
+                        </li>
+                        <li class="glide__slide">
+                            <div><img src="./img/escuela/2.jpg" alt="">
+                            </div>
+                        </li>
+                        <li class="glide__slide">
+                            <div><img src="./img/escuela/7.jpg" alt="">
+                            </div>
+                        </li>
+                        <li class="glide__slide">
+                            <div><img src="./img/escuela/8.jpg" alt="">
+                            </div>
+                        </li>
+                        <li class="glide__slide">
+                            <div><img src="./img/escuela/9.jpg" alt="">
+                            </div>
+                        </li>
+                        <li class="glide__slide">
+                            <div><img src="./img/escuela/10.jpg" alt="">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
     </div>
+    </div>
+    </section>
+
+    <!--CONTACTO-->
+
+    <section id="contacto" class="contacto">
+        <div class="container-content">
+            <div class="container-redes">
+                <img src="./img/facebook.png" alt="">
+                <img src="./img/insta.png" alt="">
+                <img src="./img/whatsapp.png" alt="">
+                <img src="./img/youtube.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+
+    <section class="footer">
+        <p>© Copyright 2020 | Yin Yang Kung Fu</p>
+        <p>Diseño y Desarrollo Web por <a href="https://frontcatdev.web.app/" target="_blank">FrontCat
+            </a><span><img src="./img/frontcat.svg" alt=""></span></p>
+    </section>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.0.2/glide.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtEYQGG4ieLsGgbCCmgbEoZ-CCOWk-nQU"></script>
 </body>
+
 </html>
