@@ -61,10 +61,43 @@
             max-width: 400px;
             box-sizing: border-box;
             .img-slider{
-                width: 100px;
+                
             }
         }
-        
+    }
+    .container-info{
+        display: flex;
+        margin-top: 70px;
+        .container-content{
+            padding: 0 10px 0 0;
+            justify-content: flex-start;
+            width: 400px;
+            .mini-card{
+                display: flex;
+                flex-direction: column;
+                height: 250px;  
+                width: 300px;
+                .container{
+                    height: 40px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                button{
+                    width: 100%;
+                    margin: 10px 0;
+                    color: $negro;
+                    background-color: $blanco;
+                }
+            }
+        }
+        .slider{
+            max-width: 350px;
+            box-sizing: border-box;
+            .img-slider{
+                width: 100%;
+            }
+        }
     }
     @include respon(tablet){  
         padding: 80px 0;  

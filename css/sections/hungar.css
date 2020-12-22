@@ -1,8 +1,10 @@
 section .hungar {
   display: flex; }
-  section .hungar .container-content h2 {
-    font-weight: 700;
-    letter-spacing: 1px; }
+  section .hungar .container-content {
+    padding: 500px 0 0 0; }
+    section .hungar .container-content h2 {
+      font-weight: 700;
+      letter-spacing: 1px; }
   section .hungar img {
     background-color: grey;
     width: 100%; }

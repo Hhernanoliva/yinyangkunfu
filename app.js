@@ -1,10 +1,10 @@
 const load = () => {
-  var glideMulti = new Glide('.multi', {
+  var glideMulti = new Glide('.slider', {
     type: 'slider',
     autoplay: 3000,
     focusAt: 'center',
     perView: 1,
-    gap: 30
+    gap: 0
   });
   glideMulti.mount();
 
