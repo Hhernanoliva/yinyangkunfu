@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,400;0,700;0,900;1,100&display=swap");
 header {
   position: relative;
@@ -451,9 +452,12 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 30px 0; }
+  padding: 30px 0;
+  background-color: white; }
   .footer p {
     margin: 0.5em; }
+    .footer p a {
+      color: #f397c0; }
   .footer span img {
     width: 20px; }
   @media (max-width: 767px) {
@@ -549,7 +553,7 @@ header {
       .navbar .container .logo img {
         width: 100%; }
       .navbar .container .logo h3 {
-        font-family: 'Nunito', sans-serif;
+        font-family: 'Merriweather', serif;
         letter-spacing: 1px;
         color: #1b1212; }
     .navbar .container .menu {
@@ -709,7 +713,7 @@ section {
       display: flex;
       justify-content: center; }
       section .hungar .secondSection .container-estudio {
-        max-width: 400px;
+        max-width: 450px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -721,7 +725,7 @@ section {
           margin: 0 0 20px 0;
           font-weight: 600; }
         section .hungar .secondSection .container-estudio .texto {
-          max-width: 400px;
+          max-width: 450px;
           font-size: 1.1rem;
           letter-spacing: 1px;
           list-style: none; }
@@ -729,7 +733,6 @@ section {
         max-width: 400px;
         display: flex;
         flex-direction: column;
-        align-items: center;
         padding: 0 1em 0 0; }
         section .hungar .secondSection .container-programa .titulo {
           width: 100%;
@@ -741,9 +744,36 @@ section {
           max-width: 400px;
           font-size: 1.1rem;
           letter-spacing: 1px;
-          list-style: none; }
+          list-style: none;
+          padding: 0;
+          margin: 0;
+          text-align: left; }
           section .hungar .secondSection .container-programa .texto p {
             font-weight: 600; }
+    section .hungar .slider-clases {
+      max-width: 350px;
+      box-sizing: border-box; }
+      section .hungar .slider-clases .img-slider {
+        width: 100%; }
+    section .hungar .historia {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: white; }
+      section .hungar .historia .titulo {
+        text-align: center;
+        font-size: 1.5rem;
+        margin: 40px 0 40px 0;
+        letter-spacing: 1.5px;
+        font-weight: 600;
+        color: black; }
+      section .hungar .historia p {
+        font-size: 1.1rem;
+        text-align: center;
+        letter-spacing: 1.4px;
+        max-width: 800px;
+        margin: 0 0 70px 0;
+        color: black; }
 
 @media (min-width: 767px) {
   .hung-Gar {
@@ -757,7 +787,16 @@ section {
       width: 300px;
       height: 200px;
       background-color: grey;
-      margin: 40px; } }
+      margin: 40px; }
+    .hung-Gar .historia {
+      display: flex;
+      flex-direction: column; }
+      .hung-Gar .historia .titulo {
+        font-size: 1.6rem;
+        margin: 40px 0 40px 0; }
+      .hung-Gar .historia p {
+        font-size: 1.2rem;
+        margin: 0 50px; } }
 
 .quote {
   display: flex;
@@ -785,39 +824,43 @@ body {
   box-sizing: border-box; }
 
 p::selection {
-  background-color: rgba(123, 68, 107, 0.8);
+  background-color: #e62420;
   color: whitesmoke; }
 
 h1::selection {
-  background-color: rgba(123, 68, 107, 0.8);
+  background-color: #e62420;
   color: whitesmoke; }
 
 h2::selection {
-  background-color: rgba(123, 68, 107, 0.8);
+  background-color: #e62420;
   color: whitesmoke; }
 
 h3::selection {
-  background-color: rgba(123, 68, 107, 0.8);
+  background-color: #e62420;
   color: whitesmoke; }
 
 h4::selection {
-  background-color: rgba(123, 68, 107, 0.8);
+  background-color: #e62420;
   color: whitesmoke; }
 
 h5::selection {
-  background-color: rgba(123, 68, 107, 0.8);
+  background-color: #e62420;
   color: whitesmoke; }
 
 li::selection {
-  background-color: rgba(123, 68, 107, 0.8);
+  background-color: #e62420;
   color: whitesmoke; }
 
 span::selection {
-  background-color: rgba(123, 68, 107, 0.8);
+  background-color: #e62420;
   color: whitesmoke; }
 
 a::selection {
-  background-color: rgba(123, 68, 107, 0.8);
+  background-color: #e62420;
+  color: whitesmoke; }
+
+strong::selection {
+  background-color: #e62420;
   color: whitesmoke; }
 
 button {

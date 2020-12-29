@@ -46,39 +46,43 @@ body {
     box-sizing: border-box;
 }
 p::selection{
-  background-color: rgba(123, 68, 107, 0.8);
+  background-color: $rojo;
   color: $blanco;
 }
 h1::selection{
-  background-color: rgba(123, 68, 107, 0.8);
+  background-color: $rojo;
   color: $blanco;
 }
 h2::selection{
-  background-color: rgba(123, 68, 107, 0.8);
+  background-color: $rojo;
   color: $blanco;
 }
 h3::selection{
-  background-color: rgba(123, 68, 107, 0.8);
+  background-color: $rojo;
   color: $blanco;
 }
 h4::selection{
-  background-color: rgba(123, 68, 107, 0.8);
+  background-color:$rojo;
   color: $blanco;
 }
 h5::selection{
-  background-color: rgba(123, 68, 107, 0.8);
+  background-color:$rojo;
   color: $blanco;
 }
 li::selection{
-  background-color: rgba(123, 68, 107, 0.8);
+  background-color: $rojo;
   color: $blanco;
 }
 span::selection{
-  background-color: rgba(123, 68, 107, 0.8);
+  background-color: $rojo;
   color: $blanco;
 }
 a::selection{
-  background-color: rgba(123, 68, 107, 0.8);
+  background-color: $rojo;
+  color: $blanco;
+}
+strong::selection{
+  background-color: $rojo;
   color: $blanco;
 }
 

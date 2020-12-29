@@ -4,9 +4,12 @@
     align-items: center;
     flex-direction: column;
     padding: 30px 0;
+    background-color: white;
     p{
         margin: 0.5em;
-
+        a{
+            color: #f397c0;
+        }
     }
     span{
         img{
