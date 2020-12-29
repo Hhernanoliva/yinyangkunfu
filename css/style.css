@@ -702,12 +702,13 @@ section {
       grid-template-columns: 4fr 3fr 4fr;
       grid-template-rows: 1fr;
       grid-column-gap: 0px;
-      grid-row-gap: 0px; }
+      grid-row-gap: 0px;
+      margin: 0; }
       section .hungar .secondSection .container-estudio {
         max-width: 500px;
         grid-area: 1 / 1 / 2 / 2;
         text-align: center;
-        margin: auto; }
+        margin: 0; }
         section .hungar .secondSection .container-estudio .titulo {
           font-size: 1.5rem;
           text-align: center;
@@ -732,7 +733,8 @@ section {
           max-width: 300px;
           text-align: center;
           font-size: 1.1rem;
-          letter-spacing: 1px; }
+          letter-spacing: 1px;
+          margin-top: 0; }
       section .hungar .secondSection .container-boton {
         display: flex;
         justify-content: center;

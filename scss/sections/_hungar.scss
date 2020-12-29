@@ -51,11 +51,12 @@ section{
             grid-template-rows: 1fr;
             grid-column-gap: 0px;
             grid-row-gap: 0px; 
+            margin: 0;
             .container-estudio{
                 max-width: 500px;
                 grid-area: 1 / 1 / 2 / 2; 
                 text-align: center;
-                margin: auto;
+                margin: 0;
                 .titulo{
                     font-size: 1.5rem;
                     text-align: center;
@@ -84,7 +85,8 @@ section{
                     max-width: 300px;
                     text-align: center;
                     font-size: 1.1rem;
-                    letter-spacing: 1px
+                    letter-spacing: 1px;
+                    margin-top:0;
                 }
             }
             .container-boton{
@@ -93,7 +95,6 @@ section{
                 align-items: center;
                 .boton-clases{
                     grid-area: 1 / 2 / 2 / 3;
-                    
                     margin: 0 80px;
                 }
             }
