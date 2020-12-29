@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
 .navbar{
     position: fixed;
     top: 0; 
@@ -19,7 +20,7 @@
                 width: 100%;
             }
             h3{
-                font-family: 'Nunito', sans-serif;
+                font-family: 'Merriweather', serif;
                 letter-spacing: 1px;
                 color:$negro;
             }

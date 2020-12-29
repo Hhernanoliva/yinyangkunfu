@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,400;0,700;0,900;1,100&display=swap");
 header {
   position: relative;
@@ -565,7 +566,7 @@ header {
       .navbar .container .logo img {
         width: 100%; }
       .navbar .container .logo h3 {
-        font-family: 'Nunito', sans-serif;
+        font-family: 'Merriweather', serif;
         letter-spacing: 1px;
         color: #1b1212; }
     .navbar .container .menu {
@@ -684,7 +685,7 @@ section {
     display: flex;
     flex-direction: column; }
     section .hungar .firstSection {
-      padding: 150px 0 0 0;
+      padding: 8em 0 6em 0;
       display: flex;
       justify-content: center; }
       section .hungar .firstSection .container-content {
@@ -697,128 +698,118 @@ section {
           font-weight: 700;
           letter-spacing: 1px;
           padding: 10px 0;
-          font-size: 2.1rem;
+          font-size: 1.8rem;
           text-transform: uppercase; }
         section .hungar .firstSection .container-content p {
           width: 400px;
           text-align: center;
           letter-spacing: 1.7px;
-          font-size: 1.3rem;
+          font-size: 1.1rem;
           line-height: 25px;
           padding: 0 0 20px 0; }
+        section .hungar .firstSection .container-content .container-boton {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: 15px 0 0 0; }
+          section .hungar .firstSection .container-content .container-boton .boton-clases {
+            margin: 0 80px; }
       section .hungar .firstSection .container-img {
         width: 300px; }
         section .hungar .firstSection .container-img img {
           background-color: grey;
           width: 100%; }
     section .hungar .secondSection {
-      padding: 6em 0 0 0;
-      display: grid;
-      display: grid;
-      grid-template-columns: 4fr 3fr 4fr;
-      grid-template-rows: 1fr;
-      grid-column-gap: 0px;
-      grid-row-gap: 0px;
-      margin: 0; }
+      background-color: white;
+      color: #1b1212;
+      padding: 6em 0;
+      display: flex;
+      justify-content: center; }
       section .hungar .secondSection .container-estudio {
-        max-width: 500px;
-        grid-area: 1 / 1 / 2 / 2;
-        text-align: center;
-        margin: 0; }
-        section .hungar .secondSection .container-estudio .titulo {
-          font-size: 1.5rem;
-          text-align: center;
-          margin: 0 0 20px 0; }
-        section .hungar .secondSection .container-estudio .texto {
-          max-width: 300px;
-          text-align: center;
-          font-size: 1.1rem;
-          letter-spacing: 1px; }
-      section .hungar .secondSection .container-programa {
-        max-width: 500px;
-        grid-area: 1 / 3 / 2 / 4;
+        max-width: 450px;
         display: flex;
         flex-direction: column;
-        align-items: center; }
-        section .hungar .secondSection .container-programa .titulo {
-          text-align: center;
+        align-items: center;
+        margin: 0 5em 0 0;
+        padding: 0 0 0 1em; }
+        section .hungar .secondSection .container-estudio .titulo {
+          width: 100%;
           font-size: 1.5rem;
           margin: 0 0 20px 0;
-          letter-spacing: 1.5px; }
-        section .hungar .secondSection .container-programa .texto {
-          max-width: 300px;
-          text-align: center;
+          font-weight: 600; }
+        section .hungar .secondSection .container-estudio .texto {
+          max-width: 450px;
           font-size: 1.1rem;
           letter-spacing: 1px;
-          margin-top: 0; }
-      section .hungar .secondSection .container-boton {
+          list-style: none; }
+      section .hungar .secondSection .container-programa {
+        max-width: 400px;
         display: flex;
-        justify-content: center;
-        align-items: center; }
-        section .hungar .secondSection .container-boton .boton-clases {
-          grid-area: 1 / 2 / 2 / 3;
-          margin: 0 80px; }
+        flex-direction: column;
+        padding: 0 1em 0 0; }
+        section .hungar .secondSection .container-programa .titulo {
+          width: 100%;
+          font-size: 1.5rem;
+          margin: 0 0 20px 0;
+          letter-spacing: 1.5px;
+          font-weight: 600; }
+        section .hungar .secondSection .container-programa .texto {
+          max-width: 400px;
+          font-size: 1.1rem;
+          letter-spacing: 1px;
+          list-style: none;
+          padding: 0;
+          margin: 0;
+          text-align: left; }
+          section .hungar .secondSection .container-programa .texto p {
+            font-weight: 600; }
+    section .hungar .slider-clases {
+      max-width: 350px;
+      box-sizing: border-box; }
+      section .hungar .slider-clases .img-slider {
+        width: 100%; }
     section .hungar .historia {
       display: flex;
       flex-direction: column;
-      align-items: center; }
+      align-items: center;
+      background-color: white; }
       section .hungar .historia .titulo {
         text-align: center;
         font-size: 1.5rem;
         margin: 40px 0 40px 0;
-        letter-spacing: 1.5px; }
+        letter-spacing: 1.5px;
+        font-weight: 600;
+        color: black; }
       section .hungar .historia p {
         font-size: 1.1rem;
         text-align: center;
         letter-spacing: 1.4px;
         max-width: 800px;
-        margin: 0 0 70px 0; }
+        margin: 0 0 70px 0;
+        color: black; }
 
 @media (min-width: 767px) {
-  .Hung-Gar {
+  .hung-Gar {
     display: flex; }
-    .Hung-Gar .container h2 {
+    .hung-Gar .container h2 {
       margin: 20px 0 0 20px; }
-    .Hung-Gar .container p {
+    .hung-Gar .container p {
       max-width: 700px;
       margin: 20px; }
-    .Hung-Gar img {
+    .hung-Gar img {
       width: 300px;
       height: 200px;
       background-color: grey;
       margin: 40px; }
-    .Hung-Gar .historia {
+    .hung-Gar .historia {
       display: flex;
       flex-direction: column; }
-      .Hung-Gar .historia .titulo {
+      .hung-Gar .historia .titulo {
         font-size: 1.6rem;
         margin: 40px 0 40px 0; }
-      .Hung-Gar .historia p {
+      .hung-Gar .historia p {
         font-size: 1.2rem;
         margin: 0 50px; } }
-
-@media (max-width: 767px) {
-  .Hung-Gar {
-    display: flex; }
-    .Hung-Gar .container h2 {
-      margin: 20px 0 0 20px; }
-    .Hung-Gar .container p {
-      max-width: 700px;
-      margin: 20px; }
-    .Hung-Gar img {
-      width: 300px;
-      height: 200px;
-      background-color: grey;
-      margin: 40px; }
-    .Hung-Gar .historia {
-      display: flex;
-      flex-direction: column; }
-      .Hung-Gar .historia .titulo {
-        font-size: 1.6rem;
-        margin: 40px 0 40px 0; }
-      .Hung-Gar .historia p {
-        font-size: 0.9rem;
-        margin: 0 10px; } }
 
 .quote {
   display: flex;
@@ -846,39 +837,43 @@ body {
   box-sizing: border-box; }
 
 p::selection {
-  background-color: rgba(123, 68, 107, 0.8);
+  background-color: #e62420;
   color: whitesmoke; }
 
 h1::selection {
-  background-color: rgba(123, 68, 107, 0.8);
+  background-color: #e62420;
   color: whitesmoke; }
 
 h2::selection {
-  background-color: rgba(123, 68, 107, 0.8);
+  background-color: #e62420;
   color: whitesmoke; }
 
 h3::selection {
-  background-color: rgba(123, 68, 107, 0.8);
+  background-color: #e62420;
   color: whitesmoke; }
 
 h4::selection {
-  background-color: rgba(123, 68, 107, 0.8);
+  background-color: #e62420;
   color: whitesmoke; }
 
 h5::selection {
-  background-color: rgba(123, 68, 107, 0.8);
+  background-color: #e62420;
   color: whitesmoke; }
 
 li::selection {
-  background-color: rgba(123, 68, 107, 0.8);
+  background-color: #e62420;
   color: whitesmoke; }
 
 span::selection {
-  background-color: rgba(123, 68, 107, 0.8);
+  background-color: #e62420;
   color: whitesmoke; }
 
 a::selection {
-  background-color: rgba(123, 68, 107, 0.8);
+  background-color: #e62420;
+  color: whitesmoke; }
+
+strong::selection {
+  background-color: #e62420;
   color: whitesmoke; }
 
 button {

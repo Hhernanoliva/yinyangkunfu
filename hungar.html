@@ -10,6 +10,8 @@
     <link rel="shortcut icon" href="">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.0.2/css/glide.core.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.0.2/css/glide.theme.css" />
     <link rel="stylesheet" href="./css/style.css">
     <script type="text/javascript" src="./js/app.js"></script>
     <title>Escuela Tradicional | Yin Yang Kung Fu</title>
@@ -24,18 +26,20 @@
         <a href=""><button class="btn-copy" onclick="location.href='mailto:';">CALL TO ACTION</button></a>
     </div>
 
+    <!--NAVBAR-->
+
     <nav class="navbar">
         <div class="container">
             <div class="logo">
                 <a href="#header"> <img src="./img/logo.png" alt=""></a>
                 <a href="#header">
-                    <h1 class="logo">YIN YANG KUNG FU</h1>
+                    <h3 class="logo">YIN YANG KUNG FU</h3>
                 </a>
             </div>
             <div id="menu" class="menu">
-                <a class="navbar-list" href="#servicios">Clases</a>
-                <a class="navbar-list" href="#nosotros">Escuela</a>
-                <a class="navbar-list" href="#contacto">Contacto</a>
+                <a class="navbar-list" href="./index.html#clases">Clases</a>
+                <a class="navbar-list" href="./index.html#escuela">Escuela</a>
+                <a class="navbar-list" href="./index.html#contacto">Contacto</a>
             </div>
             <button id="button" class="buttonBurguer btn-burger" aria-label="Main Menu">
                 <svg width="30" height="30" viewBox="0 0 100 100">
@@ -80,38 +84,85 @@
 
             <div class="secondSection">
                 <div class="container-estudio">
-                    <p class="titulo">Nuestras Clases incluyen</p>
-                    <p class="texto">Calistenia - estiramientos - entrada en calor
-                        Entrenamiento postural y acondicionamiento de los músculos
-                        Chin Ben Gong (Ejercicios básicos del estilo)
-                        Formas y Aplicaciones -armas tradicionales
-                        Entrenamiento en parejas
-                        Teoría
-                    </p>
+                    <p class="titulo">Nuestras Clases incluyen:</p>
+                    <ul class="texto">
+                        <li>Calistenia</li>
+                        <li>Estiramientos</li>
+                        <li>Entrada en calor</li>
+                        <li>Entrenamiento postural y acondicionamiento de los músculos</li>
+                        <li>Chin Ben Gong (Ejercicios básicos del estilo)</li>
+                        <li>Formas y Aplicaciones</li>
+                        <li>Armas tradicionales</li>
+                        <li>Entrenamiento en parejas</li>
+                        <li>Teoría</li>
+                    </ul>
                 </div>
                 <div class="container-programa">
-                    <p class="titulo">Programa de Estudio</p>
-                    <p class="texto">Programa de Estudio
-                        Lian Huan Quan
-                        Tan Tui
-                        Mai Fu Quan
-                        San Lu Pao Quan
-                        Shi Zi Tang
-                        SiLu Cha Quan
-                        San Cai Jian
-                        Miao Dao
-                    </p>
-                    <p class="texto">
-                        Material avanzado <br>
-                        Lian Bu Quan,
-                        Sable de las seis armonías
-                    </p>
+                    <p class="titulo">Programa de Estudio:</p>
+                    <ul class="texto">
+                        <li>Lian Huan Quan</li>
+                        <li>Tan Tui</li>
+                        <li>Mai Fu Quan</li>
+                        <li>San Lu Pao Quan</li>
+                        <li>Shi Zi Tang</li>
+                        <li>SiLu Cha Quan</li>
+                        <li>San Cai Jian</li>
+                        <li>Miao Dao</li>
+                        <br>
+                        <p>Material avanzado: </p> 
+                        <li>Lian Bu Quan,</li>
+                        <li>Sable de las seis armonías</li>
+                        <li>Otros</li>   
+                    </ul>
                 </div>
             </div>
 
+            <div class="glide slider-clases" style="width: 400px;">
+                <div class="glide__track slider" data-glide-el="track">
+                    <ul class="glide__slides">
+                        <li class="glide__slide">
+                            <div><img class="img-slider" src="./img/escuela/5.jpg" alt="">
+                            </div>
+                        </li>
+                        <li class="glide__slide">
+                            <div><img class="img-slider" src="./img/escuela/6.jpg" alt="">
+                            </div>
+                        </li>
+                        <li class="glide__slide">
+                            <div><img class="img-slider" src="./img/escuela/3.jpg" alt="">
+                            </div>
+                        </li>
+                        <li class="glide__slide">
+                            <div><img class="img-slider" src="./img/escuela/4.jpg" alt="">
+                            </div>
+                        </li>
+                        <li class="glide__slide">
+                            <div><img class="img-slider" src="./img/escuela/1.jpg" alt=""></div>
+                        </li>
+                        <li class="glide__slide">
+                            <div><img src="./img/escuela/2.jpg" alt="">
+                            </div>
+                        </li>
+                        <li class="glide__slide">
+                            <div><img src="./img/escuela/7.jpg" alt="">
+                            </div>
+                        </li>
+                        <li class="glide__slide">
+                            <div><img src="./img/escuela/8.jpg" alt="">
+                            </div>
+                        </li>
+                        <li class="glide__slide">
+                            <div><img src="./img/escuela/9.jpg" alt="">
+                            </div>
+                        </li>
+                        <li class="glide__slide">
+                            <div><img src="./img/escuela/10.jpg" alt="">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
 
-
-            <div class="slider"></div>
             <div class="historia">
                 <p class="titulo">Historia del Chang Quan</p>
                 <p>Es un estilo de Kung Fu, proveniente del sur de China, para posteriormente arribar a Canton hace 300 años
@@ -140,6 +191,7 @@
     </section>
     </div>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.0.2/glide.js"></script>
 </body>
 
 </html>
