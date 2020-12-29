@@ -690,6 +690,14 @@ section {
           font-size: 1.3rem;
           line-height: 25px;
           padding: 0 0 20px 0; }
+        section .hungar .firstSection .container-content .container-boton {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: 15px 0 0 0; }
+          section .hungar .firstSection .container-content .container-boton .boton-clases {
+            grid-area: 1 / 2 / 2 / 3;
+            margin: 0 80px; }
       section .hungar .firstSection .container-img {
         width: 300px; }
         section .hungar .firstSection .container-img img {
@@ -733,13 +741,6 @@ section {
           text-align: center;
           font-size: 1.1rem;
           letter-spacing: 1px; }
-      section .hungar .secondSection .container-boton {
-        display: flex;
-        justify-content: center;
-        align-items: center; }
-        section .hungar .secondSection .container-boton .boton-clases {
-          grid-area: 1 / 2 / 2 / 3;
-          margin: 0 80px; }
 
 @media (min-width: 767px) {
   .Hung-Gar {
