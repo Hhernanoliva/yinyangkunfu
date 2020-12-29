@@ -142,7 +142,8 @@ header {
       align-items: center;
       flex-direction: row;
       width: 100%;
-      flex-wrap: wrap; }
+      flex-wrap: wrap;
+      margin-bottom: 61px; }
       .clases main .container-cards .cards-row {
         display: flex;
         justify-content: center;
@@ -199,6 +200,18 @@ header {
             .clases main .container-cards .cards-row .card .container-content h3 {
               text-align: center;
               text-transform: uppercase; }
+    .clases main .container-modalidad .modalidad {
+      display: flex;
+      flex-direction: column; }
+      .clases main .container-modalidad .modalidad h4 {
+        justify-content: center;
+        text-align: center;
+        padding: 0 30px 0 0;
+        font-size: 1.5rem; }
+      .clases main .container-modalidad .modalidad p {
+        text-align: center;
+        font-size: 1.2rem;
+        max-width: 800px; }
 
 .escuela {
   background-color: #1b1212;
@@ -267,8 +280,8 @@ header {
         .escuela .container-info .container-content .mini-card button {
           width: 100%;
           margin: 10px 0;
-          color: #1b1212;
-          background-color: whitesmoke; }
+          color: whitesmoke;
+          background-color: #e62420; }
     .escuela .container-info .slider {
       max-width: 350px;
       box-sizing: border-box; }
