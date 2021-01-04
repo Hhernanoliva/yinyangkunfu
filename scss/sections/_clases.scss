@@ -72,15 +72,15 @@
      
                             
                     .container-img{
-                        width: 250px;
-                        height: 250px;
+                        width: 215px;
+                        height: 215px;
                         display: flex;
                         justify-content: center;
                         align-items: center;
                         overflow: hidden;
                         img{
-                            width: 250px;
-                            height: 250px;
+                            width: 100%;
+                            height: 100%;
                         }
                     }
                         .overlay{
@@ -89,14 +89,14 @@
                             bottom: 0;
                             left: 0;
                             right: 0;
-                            height: 250px;
-                            width: 250px;
+                            height: 215px;
+                            width: 215px;
                             opacity: 0;
                             transition: .5s ease;
                             background-color: #1f1717c2;
                             .text {
                                 color: white;
-                                font-size: 1.1rem;
+                                font-size: 1rem;
                                 position: absolute;
                                 top: 50%;
                                 left: 50%;
@@ -104,8 +104,8 @@
                                 -ms-transform: translate(-50%, -50%);
                                 transform: translate(-50%, -50%);
                                 text-align: center;
-                                width: 250px;
-                                letter-spacing: 1.2px;
+                                width: 215px;
+                                letter-spacing: 1.1px;
                                 padding: 0 15px;
 
                             }    
