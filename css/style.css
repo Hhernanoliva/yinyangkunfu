@@ -17,7 +17,6 @@ header {
       background-attachment: fixed; }
       header .hero .container .container-hero {
         display: flex;
-        flex-direction: column;
         text-align: center;
         width: 100%;
         height: 100%; }
@@ -57,7 +56,6 @@ header {
               box-shadow: 7px 10px 8px 0px rgba(94, 93, 0, 0.301); }
   @media (min-width: 767px) {
     header .hero .container {
-      background-image: url(../../img/hero-tablet.png);
       background-position: bottom right;
       background-repeat: no-repeat;
       background-size: 45%;
@@ -65,9 +63,9 @@ header {
       justify-content: center; }
       header .hero .container .container-hero {
         justify-content: center;
-        align-items: flex-start; }
+        align-items: center; }
         header .hero .container .container-hero .content {
-          margin: 0 0 0 100px; }
+          margin: 0 100px 0 0; }
           header .hero .container .container-hero .content h1 {
             font-size: 2.5rem; }
           header .hero .container .container-hero .content .container-btn {
@@ -78,11 +76,14 @@ header {
                 height: 50px;
                 font-size: 1rem; }
               header .hero .container .container-hero .content .container-btn a button:active {
-                padding: 1.07em 1.17m;
-                font-size: 1.17rem; } }
+                padding: 1.07em 1.17em;
+                font-size: 1.17rem; }
+        header .hero .container .container-hero .content-logo {
+          max-width: 380px; }
+          header .hero .container .container-hero .content-logo img {
+            width: 100%; } }
   @media (max-width: 767px) {
     header .hero .container .container-hero {
-      background-image: url(../../img/hero-mobile.jpg);
       background-size: cover;
       background-position: center;
       background-color: rgba(40, 11, 63, 0.56);
@@ -90,6 +91,8 @@ header {
       height: 100vh;
       display: flex;
       flex-direction: column; }
+      header .hero .container .container-hero img {
+        max-width: 200px; }
       header .hero .container .container-hero h1 {
         padding: 15% 18px 0 18px;
         font-size: 1.8rem; }
