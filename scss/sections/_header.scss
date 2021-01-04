@@ -16,7 +16,6 @@ header{
             background-attachment: fixed;
             .container-hero{
                 display: flex;
-                flex-direction: column;
                 text-align: center;
                 width: 100%;
                 height: 100%;
@@ -69,7 +68,7 @@ header{
         .hero{
             
             .container{
-                background-image: url(../../img/hero-tablet.png);
+                // background-image: url(../../img/hero-tablet.png);
                 background-position: bottom right;
                 background-repeat: no-repeat; 
                 background-size: 45%;
@@ -77,9 +76,9 @@ header{
                 justify-content: center;
                 .container-hero{
                     justify-content: center;
-                    align-items: flex-start;
+                    align-items: center;
                     .content{
-                        margin: 0 0 0 100px;
+                            margin: 0 100px 0 0;
                         h1{
                             font-size: 2.5rem;
                         }
@@ -92,10 +91,16 @@ header{
                                     font-size: 1rem;
                                 }
                                 button:active{
-                                    padding: 1.07em 1.17m;
+                                    padding: 1.07em 1.17em;
                                     font-size: 1.17rem;
                                 }
                             }
+                        }
+                    }
+                    .content-logo{
+                        max-width: 380px;
+                        img{
+                            width: 100%;
                         }
                     }
                 }
@@ -107,7 +112,7 @@ header{
         .hero{
             .container{
                 .container-hero{
-                    background-image: url(../../img/hero-mobile.jpg);
+                    // background-image: url(../../img/hero-mobile.jpg);
                     background-size: cover;
                     background-position: center;
                     background-color: rgba(40, 11, 63, 0.56);
@@ -115,6 +120,9 @@ header{
                     height: 100vh;
                     display: flex;
                     flex-direction: column;
+                    img{
+                        max-width: 200px;
+                    }
                     h1{
                         padding: 15% 18px 0 18px;
                         font-size: 1.8rem;
