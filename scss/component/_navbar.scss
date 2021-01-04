@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap');
 .navbar{
     position: fixed;
     top: 0; 
@@ -23,6 +23,7 @@
                 font-family: 'Merriweather', serif;
                 letter-spacing: 1px;
                 color:$negro;
+                font-weight: 900;
             }
         }
         .menu{
