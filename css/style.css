@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,400;0,700;0,900;1,100&display=swap");
 header {
   position: relative;
@@ -159,20 +159,23 @@ header {
           margin: 25px;
           cursor: pointer; }
           .clases main .container-cards .cards-row .card .container-img {
-            width: 300px;
-            height: 300px;
+            width: 250px;
+            height: 250px;
             display: flex;
             justify-content: center;
             align-items: center;
             overflow: hidden; }
+            .clases main .container-cards .cards-row .card .container-img img {
+              width: 250px;
+              height: 250px; }
           .clases main .container-cards .cards-row .card .overlay {
             position: absolute;
             top: 0;
             bottom: 0;
             left: 0;
             right: 0;
-            height: 300px;
-            width: 300px;
+            height: 250px;
+            width: 250px;
             opacity: 0;
             transition: .5s ease;
             background-color: #1f1717c2; }
@@ -187,12 +190,10 @@ header {
               transform: translate(-50%, -50%);
               text-align: center;
               width: 250px;
-              letter-spacing: 1.2px; }
+              letter-spacing: 1.2px;
+              padding: 0 15px; }
             .clases main .container-cards .cards-row .card .overlay:hover {
               opacity: 1; }
-            .clases main .container-cards .cards-row .card .overlay img {
-              width: 300px;
-              height: 300px; }
           .clases main .container-cards .cards-row .card .container-content {
             display: flex;
             justify-content: center;
@@ -568,7 +569,8 @@ header {
       .navbar .container .logo h3 {
         font-family: 'Merriweather', serif;
         letter-spacing: 1px;
-        color: #1b1212; }
+        color: #1b1212;
+        font-weight: 900; }
     .navbar .container .menu {
       display: flex;
       justify-content: center;
