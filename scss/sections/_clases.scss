@@ -5,6 +5,9 @@
     background-color: $negro;
     color: $blanco;
     padding: 70px 0;
+    background-image: url(../../img/hero-tablet.png);
+    background-position: bottom center;
+    background-repeat: no-repeat; 
     main{
         display: flex;
         justify-content:center;

@@ -106,7 +106,10 @@ header {
 .clases {
   background-color: #1b1212;
   color: whitesmoke;
-  padding: 70px 0; }
+  padding: 70px 0;
+  background-image: url(../../img/hero-tablet.png);
+  background-position: bottom center;
+  background-repeat: no-repeat; }
   .clases main {
     display: flex;
     justify-content: center;
@@ -616,11 +619,18 @@ section {
           text-align: left; }
           section .hungar .secondSection .container-programa .texto p {
             font-weight: 600; }
-    section .hungar .slider-clases {
-      max-width: 350px;
-      box-sizing: border-box; }
-      section .hungar .slider-clases .img-slider {
-        width: 100%; }
+    section .hungar .container-slide {
+      padding: 50px 0 25px 0; }
+      section .hungar .container-slide .container {
+        width: 100%;
+        display: flex;
+        justify-content: center; }
+        section .hungar .container-slide .container .slider-clases {
+          width: 400px;
+          box-sizing: border-box; }
+          section .hungar .container-slide .container .slider-clases .img-slider {
+            width: 400px;
+            height: 400px; }
     section .hungar .historia {
       display: flex;
       flex-direction: column;

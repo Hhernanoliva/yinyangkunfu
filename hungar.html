@@ -114,39 +114,40 @@
             </div>
 
             <div class="container-slide">
-                <div class="glide">
-                    <div class="glide__track" data-glide-el="track">
-                        <ul class="glide__slides">
-                            <li class="glide__slide">
-                                <div><img class="img-slider" src="./img/escuela/2.jpg" alt="">
-                                </div>
-                            </li>
-                            <li class="glide__slide">
-                                <div><img class="img-slider" src="./img/escuela/6.jpg" alt="">
-                                </div>
-                            </li>
-                            <li class="glide__slide">
-                                <div><img class="img-slider" src="./img/escuela/3.jpg" alt="">
-                                </div>
-                            </li>
-                            <li class="glide__slide">
-                                <div><img class="img-slider" src="./img/escuela/4.jpg" alt="">
-                                </div>
-                            </li>
-                            <li class="glide__slide">
-                                <div><img class="img-slider" src="./img/escuela/1.jpg" alt=""></div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-    
-                <div class="glide slider-clases" style="width: 400px;">
-                    <div class="glide__track slider" data-glide-el="track">
-    
+                <div class="container">
+                    <div class="glide gliderr" style="width: 400px;">
+                        <div class="glide__track slider" data-glide-el="track">
+                            <ul class="glide__slides">
+                                <li class="glide__slide">
+                                    <div><img class="img-slider" src="./img/hungar/1.jpg" alt="">
+                                    </div>
+                                </li>
+                                <li class="glide__slide">
+                                    <div><img class="img-slider" src="./img/hungar/3.jpg" alt="">
+                                    </div>
+                                </li>
+                                <li class="glide__slide">
+                                    <div><img class="img-slider" src="./img/hungar/4.jpg" alt="">
+                                    </div>
+                                </li>
+                                <li class="glide__slide">
+                                    <div><img class="img-slider" src="./img/hungar/6.jpg" alt="">
+                                    </div>
+                                </li>
+                                <li class="glide__slide">
+                                    <div><img class="img-slider" src="./img/hungar/7.jpg" alt="">
+                                    </div>
+                                </li>
+                                <li class="glide__slide">
+                                    <div><img class="img-slider" src="./img/hungar/8.jpg" alt="">
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
-            
+
 
             <div class="historia">
                 <p class="titulo">Historia del Chang Quan</p>
@@ -186,11 +187,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.0.2/glide.js"></script>
     <script>
 
-        new Glide('.glide', {
+        new Glide('.gliderr', {
             type: 'carousel',
             autoplay: 3000,
             focusAt: 'center',
-            perView: 1,
             gap: 0
         }).mount();
     </script>

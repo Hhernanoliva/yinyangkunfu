@@ -103,15 +103,25 @@ section{
                         font-weight: 600;
                     }
                 }
-            }
-        }  
-        .slider-clases{
-            max-width: 350px;
-            box-sizing: border-box;
-            .img-slider{
+            } 
+        }
+        .container-slide{ 
+            padding: 50px 0 25px 0;
+            .container{
                 width: 100%;
+                display: flex;
+                justify-content: center;
+                .slider-clases{
+                    width: 400px;
+                    box-sizing: border-box;
+                    .img-slider{
+                        width: 400px;
+                        height: 400px;
+                    }
+                } 
             }
         }  
+ 
         .historia{
             display: flex;
             flex-direction: column;
