@@ -5,9 +5,7 @@
     background-color: $negro;
     color: $blanco;
     padding: 70px 0;
-    background-image: url(../../img/hero-tablet.png);
-    background-position: bottom center;
-    background-repeat: no-repeat; 
+
     main{
         display: flex;
         justify-content:center;
@@ -97,9 +95,10 @@
                             opacity: 0;
                             transition: .5s ease;
                             background-color: #1f1717c2;
+
                             .text {
                                 color: white;
-                                font-size: 1rem;
+                                font-size: 0.9rem;
                                 position: absolute;
                                 top: 50%;
                                 left: 50%;
@@ -107,10 +106,9 @@
                                 -ms-transform: translate(-50%, -50%);
                                 transform: translate(-50%, -50%);
                                 text-align: center;
-                                width: 215px;
+                                width: 200px;
                                 letter-spacing: 1.1px;
-                                padding: 0 15px;
-
+                                line-height: 20px;
                             }    
                             &:hover{
                                 opacity: 1;
@@ -126,6 +124,7 @@
                         }
                         button{
                             margin-top: 20px;
+                            background-color: $negro;
                         }
                     }
                 
@@ -135,17 +134,20 @@
         .container-modalidad{
             .modalidad{
                 display: flex;
-                flex-direction: column;
-                h4{
-                    justify-content: center;
-                    text-align: center;
-                    padding: 0 30px 0 0;
-                    font-size: 1.5rem;
-                }
-                p{
-                    text-align: center;
-                    font-size: 1.2rem;
-                    max-width: 800px;
+                .container-card{
+                    .card{
+                        h4{
+                            justify-content: center;
+                            text-align: center;
+                            padding: 0 30px 0 0;
+                            font-size: 1.5rem;
+                        }
+                        p{
+                            text-align: center;
+                            font-size: 1.2rem;
+                            max-width: 800px;
+                        }
+                    }
                 }
             }
         }
