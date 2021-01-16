@@ -1,0 +1,47 @@
+@import "./scss/mixin/respon";
+@import "../variable/colors";
+
+section{
+    .sobreMi{
+        .firstSection{
+            padding: 7em 0 0em 0;
+            display: flex;
+            background-image: url(../../img/hero-tablet.png);
+            background-position: bottom right;
+            background-repeat: no-repeat; 
+            .container-content{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                color: $blanco;
+                margin: 0 100px 0 0;
+
+                h1{
+                    font-weight: 700;
+                    letter-spacing:1px;
+                    padding: 10px 0;
+                    font-size: 1.8rem;
+                    text-transform: uppercase;    
+                    margin: 0 0 10px 0;  
+                }
+                h2{
+                    font-weight: 500;
+                    letter-spacing:1px;
+                    padding: 10px 0;
+                    font-size: 1.6rem;
+                    margin: 0 0 10px 0;  
+                }
+                p{
+                    width: 700px;
+                    text-align: left;
+                    letter-spacing: 1.7px;
+                    font-size: 1.1rem;
+                    line-height: 25px;
+                    padding: 0 0 20px 0;
+                    color: $blanco;
+                }
+            }
+        }
+    }
+}
