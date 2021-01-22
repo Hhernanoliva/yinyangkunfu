@@ -54,7 +54,7 @@ header {
               border: none;
               outline: none;
               box-shadow: 7px 10px 8px 0px rgba(94, 93, 0, 0.301); }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     header .hero .container {
       background-position: bottom right;
       background-repeat: no-repeat;
@@ -293,7 +293,7 @@ header {
       box-sizing: border-box; }
       .escuela .container-info .slider .img-slider {
         width: 100%; }
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     .escuela {
       padding: 80px 0; } }
 
@@ -493,7 +493,7 @@ header {
   padding: 0;
   box-shadow: 0px 1px 5px 3px rgba(88, 70, 136, 0.3); }
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
   .navbar {
     padding: 4px 0; }
     .navbar .container .logo img {
@@ -545,7 +545,7 @@ section {
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        margin: 0 100px 0 0; }
+        margin: 0 110px 0 0; }
         section .hungar .firstSection .container-content h1 {
           font-weight: 700;
           letter-spacing: 1px;
@@ -582,7 +582,7 @@ section {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 0 5em 0 0;
+        margin: 0 110px 0 0;
         padding: 0 0 0 1em; }
         section .hungar .secondSection .container-estudio .titulo {
           width: 100%;
@@ -606,6 +606,8 @@ section {
           margin: 0 0 20px 0;
           letter-spacing: 1.5px;
           font-weight: 600; }
+        section .hungar .secondSection .container-programa ul {
+          margin: 0; }
         section .hungar .secondSection .container-programa .texto {
           max-width: 400px;
           font-size: 1.1rem;
@@ -617,59 +619,261 @@ section {
           section .hungar .secondSection .container-programa .texto p {
             font-weight: 600; }
     section .hungar .container-slide {
-      padding: 50px 0 25px 0; }
+      display: flex;
+      justify-content: center;
+      padding: 100px 0; }
       section .hungar .container-slide .container {
-        width: 100%;
         display: flex;
-        justify-content: center; }
+        justify-content: center;
+        align-items: center;
+        margin: 0 110px 50px 0; }
         section .hungar .container-slide .container .slider-clases {
           width: 400px;
           box-sizing: border-box; }
           section .hungar .container-slide .container .slider-clases .img-slider {
             width: 400px;
             height: 400px; }
-    section .hungar .historia {
+      section .hungar .container-slide .historia {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: white;
+        border-radius: 10px;
+        max-width: 450px; }
+        section .hungar .container-slide .historia .titulo {
+          text-align: center;
+          font-size: 1.5rem;
+          margin: 10px 0 10px 0;
+          letter-spacing: 1.5px;
+          font-weight: 600;
+          color: black; }
+        section .hungar .container-slide .historia p {
+          font-size: 1.1rem;
+          text-align: left;
+          letter-spacing: 1.4px;
+          max-width: 800px;
+          margin: 0 0 30px 0;
+          color: black;
+          padding: 20px; }
+  @media (min-width: 768px) {
+    section .hungar .firstSection {
+      padding: 8em 0 6em 0; }
+      section .hungar .firstSection .container-content {
+        margin: 0 110px 0 0; }
+        section .hungar .firstSection .container-content h1 {
+          padding: 10px 0;
+          font-size: 1.8rem; }
+        section .hungar .firstSection .container-content p {
+          width: 400px;
+          font-size: 1.1rem;
+          padding: 0 0 20px 0; }
+        section .hungar .firstSection .container-content .container-boton {
+          margin: 15px 0 0 0; }
+          section .hungar .firstSection .container-content .container-boton .boton-clases {
+            margin: 0 80px; }
+      section .hungar .firstSection .container-img {
+        width: 300px; }
+    section .hungar .secondSection {
+      padding: 6em 0; }
+      section .hungar .secondSection .container-estudio {
+        max-width: 450px;
+        margin: 0 110px 0 0;
+        padding: 0 0 0 1em; }
+        section .hungar .secondSection .container-estudio .titulo {
+          width: 100%;
+          font-size: 1.5rem;
+          margin: 0 0 20px 0; }
+        section .hungar .secondSection .container-estudio .texto {
+          padding: 0;
+          max-width: 450px;
+          font-size: 1.1rem; }
+      section .hungar .secondSection .container-programa {
+        max-width: 400px;
+        padding: 0 1em 0 0; }
+        section .hungar .secondSection .container-programa .titulo {
+          width: 100%;
+          font-size: 1.5rem;
+          margin: 0 0 20px 0; }
+        section .hungar .secondSection .container-programa ul {
+          margin: 0; }
+        section .hungar .secondSection .container-programa .texto {
+          max-width: 400px;
+          font-size: 1.1rem;
+          padding: 0;
+          margin: 0;
+          text-align: left; }
+          section .hungar .secondSection .container-programa .texto p {
+            font-weight: 600; }
+    section .hungar .container-slide {
+      padding: 100px 0; }
+      section .hungar .container-slide .container {
+        margin: 0 110px 50px 0; }
+        section .hungar .container-slide .container .slider-clases {
+          width: 400px; }
+          section .hungar .container-slide .container .slider-clases .img-slider {
+            width: 400px;
+            height: 400px; }
+      section .hungar .container-slide .historia {
+        max-width: 450px; }
+        section .hungar .container-slide .historia .titulo {
+          font-size: 1.5rem;
+          margin: 10px 0 10px 0; }
+        section .hungar .container-slide .historia p {
+          font-size: 1.1rem;
+          text-align: left;
+          max-width: 800px;
+          margin: 0 0 30px 0;
+          padding: 20px; } }
+  @media (max-width: 991.98px) {
+    section .hungar .firstSection {
+      padding: 60px 0 60px 0; }
+      section .hungar .firstSection .container-content {
+        margin: 0 30px 0 0; }
+        section .hungar .firstSection .container-content h1 {
+          padding: 10px 0;
+          font-size: 1.4rem; }
+        section .hungar .firstSection .container-content p {
+          width: 370px;
+          font-size: 1rem;
+          padding: 0 0 10px 0; }
+        section .hungar .firstSection .container-content .container-boton {
+          margin: 15px 0 0 0; }
+          section .hungar .firstSection .container-content .container-boton .boton-clases {
+            margin: 0 80px; }
+      section .hungar .firstSection .container-img {
+        margin: 30px 0 0 0;
+        width: 200px; }
+        section .hungar .firstSection .container-img p {
+          margin: 5px 0 0 0;
+          text-align: right; }
+    section .hungar .secondSection {
+      padding: 60px 0; }
+      section .hungar .secondSection .container-estudio {
+        max-width: 450px;
+        margin: 0 40px 0 0;
+        padding: 0 0 0 1em; }
+        section .hungar .secondSection .container-estudio .titulo {
+          width: 100%;
+          font-size: 1.35rem;
+          margin: 0 0 20px 0; }
+        section .hungar .secondSection .container-estudio .texto {
+          padding: 0;
+          max-width: 450px;
+          font-size: 1rem; }
+      section .hungar .secondSection .container-programa {
+        max-width: 400px;
+        padding: 0 1em 0 0; }
+        section .hungar .secondSection .container-programa .titulo {
+          width: 100%;
+          font-size: 1.35rem;
+          margin: 0 0 20px 0; }
+        section .hungar .secondSection .container-programa ul {
+          margin: 0; }
+        section .hungar .secondSection .container-programa .texto {
+          max-width: 400px;
+          font-size: 1rem;
+          padding: 0;
+          margin: 0;
+          text-align: left; }
+          section .hungar .secondSection .container-programa .texto p {
+            font-weight: 600; }
+    section .hungar .container-slide {
+      padding: 100px 0;
+      flex-direction: column;
+      align-items: center; }
+      section .hungar .container-slide .container {
+        margin: 0 0 40px; }
+        section .hungar .container-slide .container .slider-clases {
+          width: 400px; }
+          section .hungar .container-slide .container .slider-clases .img-slider {
+            width: 400px;
+            height: 400px; }
+      section .hungar .container-slide .historia {
+        max-width: 620px; }
+        section .hungar .container-slide .historia .titulo {
+          font-size: 1.4rem;
+          margin: 10px 0 10px 0; }
+        section .hungar .container-slide .historia p {
+          font-size: 1rem;
+          text-align: left;
+          max-width: 850px;
+          margin: 0 0 30px 0;
+          padding: 20px; } }
+  @media (max-width: 667px) {
+    section .hungar .firstSection {
+      padding: 70px 0 6em 0;
       display: flex;
       flex-direction: column;
-      align-items: center;
-      background-color: white; }
-      section .hungar .historia .titulo {
-        text-align: center;
-        font-size: 1.5rem;
-        margin: 40px 0 40px 0;
-        letter-spacing: 1.5px;
-        font-weight: 600;
-        color: black; }
-      section .hungar .historia p {
-        font-size: 1.1rem;
-        text-align: center;
-        letter-spacing: 1.4px;
-        max-width: 800px;
-        margin: 0 0 70px 0;
-        color: black; }
-
-@media (min-width: 767px) {
-  .hung-Gar {
-    display: flex; }
-    .hung-Gar .container h2 {
-      margin: 20px 0 0 20px; }
-    .hung-Gar .container p {
-      max-width: 700px;
-      margin: 20px; }
-    .hung-Gar img {
-      width: 300px;
-      height: 200px;
-      background-color: grey;
-      margin: 40px; }
-    .hung-Gar .historia {
-      display: flex;
-      flex-direction: column; }
-      .hung-Gar .historia .titulo {
-        font-size: 1.6rem;
-        margin: 40px 0 40px 0; }
-      .hung-Gar .historia p {
-        font-size: 1.2rem;
-        margin: 0 50px; } }
+      justify-content: center; }
+      section .hungar .firstSection .container-content {
+        flex-direction: column;
+        margin: 0 0px 0 0; }
+        section .hungar .firstSection .container-content h1 {
+          padding: 10px 0;
+          font-size: 1.6rem; }
+        section .hungar .firstSection .container-content p {
+          max-width: 300px;
+          font-size: 1rem;
+          padding: 0 0 10px 0; }
+        section .hungar .firstSection .container-content .container-boton {
+          margin: 10px 0 50px 0; }
+          section .hungar .firstSection .container-content .container-boton .boton-clases {
+            margin: 0 80px; }
+      section .hungar .firstSection .container-img {
+        display: flex;
+        flex-direction: column;
+        width: 100%; }
+    section .hungar .secondSection {
+      padding: 50px 0;
+      flex-direction: column;
+      padding: 40px 0 40px 15px; }
+      section .hungar .secondSection .container-estudio {
+        max-width: 450px;
+        margin: 0 110px 0 0;
+        padding: 0; }
+        section .hungar .secondSection .container-estudio .titulo {
+          width: 100%;
+          font-size: 1.5rem;
+          margin: 0 0 20px 0; }
+        section .hungar .secondSection .container-estudio .texto {
+          padding: 0;
+          max-width: 450px;
+          font-size: 1.1rem; }
+      section .hungar .secondSection .container-programa {
+        max-width: 400px;
+        padding: 0 1em 0 0; }
+        section .hungar .secondSection .container-programa .titulo {
+          width: 100%;
+          font-size: 1.5rem;
+          margin: 0 0 20px 0; }
+        section .hungar .secondSection .container-programa ul {
+          margin: 0; }
+        section .hungar .secondSection .container-programa .texto {
+          max-width: 400px;
+          font-size: 1.1rem;
+          padding: 0;
+          margin: 0;
+          text-align: left; }
+          section .hungar .secondSection .container-programa .texto p {
+            font-weight: 600; }
+    section .hungar .container-slide {
+      flex-direction: column;
+      padding: 50px 0 50px 0;
+      width: 100%; }
+      section .hungar .container-slide .container {
+        margin: 0;
+        overflow: hidden; }
+      section .hungar .container-slide .historia {
+        max-width: 450px; }
+        section .hungar .container-slide .historia .titulo {
+          font-size: 1.5rem;
+          margin: 10px 0 10px 0; }
+        section .hungar .container-slide .historia p {
+          font-size: 1.1rem;
+          text-align: left;
+          max-width: 800px;
+          margin: 0 0 30px 0;
+          padding: 20px; } }
 
 section .sobreMi .firstSection {
   padding: 7em 0 0em 0;
