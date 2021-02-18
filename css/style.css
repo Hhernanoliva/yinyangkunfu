@@ -910,6 +910,45 @@ section .sobreMi .firstSection {
       padding: 0 0 20px 0;
       color: whitesmoke; }
 
+.eduardo {
+  color: #1b1212;
+  display: flex;
+  background-color: white; }
+  .eduardo .section-eduardo {
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+    position: relative; }
+    .eduardo .section-eduardo .container-content-eduardo {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column; }
+      .eduardo .section-eduardo .container-content-eduardo h1 {
+        font-weight: 700;
+        letter-spacing: 1px;
+        padding: 10px 0;
+        font-size: 1.8rem;
+        margin: 20px;
+        text-transform: uppercase;
+        color: #1b1212;
+        width: 400px;
+        z-index: 2; }
+      .eduardo .section-eduardo .container-content-eduardo .p-eduardo {
+        max-width: 400px;
+        text-align: center;
+        letter-spacing: 1.7px;
+        font-size: 1.1rem;
+        line-height: 25px;
+        z-index: 2; }
+    .eduardo .section-eduardo .container-img-eduardo {
+      position: absolute;
+      left: 600px; }
+      .eduardo .section-eduardo .container-img-eduardo img {
+        z-index: 1;
+        width: 654px; }
+
 .quote {
   display: flex;
   justify-content: center;
