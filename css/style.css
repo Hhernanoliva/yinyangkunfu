@@ -936,7 +936,7 @@ section .sobreMi .firstSection {
         width: 400px;
         z-index: 2; }
       .eduardo .section-eduardo .container-content-eduardo .p-eduardo {
-        max-width: 400px;
+        max-width: 600px;
         text-align: center;
         letter-spacing: 1.7px;
         font-size: 1.1rem;
