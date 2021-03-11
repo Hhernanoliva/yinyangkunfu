@@ -10,6 +10,7 @@
 @import "./variable/font-size"; 
 @import "./sections/hungar.scss";
 @import "./sections/sobreMi";
+@import "./sections/accordion";
 @import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,400;0,700;0,900;1,100&display=swap');
 
 
@@ -151,7 +152,21 @@ button:active:after {
 a {
   text-decoration: none;
 }
-
-
+.trigger-p{
+  max-width: 600px;
+  font-size: 20px !important;
+  padding: 20px 15px !important;
+}
+.ac-trigger{
+  text-align: center !important;
+}
+.info-contacto{
+  max-width: 550px;
+  padding: 1em 1.5em;
+  letter-spacing: 2px;
+  line-height: 25px;
+  font-size: 1rem;
+  text-align: center;
+}
 
 

@@ -17,8 +17,7 @@ header {
       background-attachment: fixed; }
       header .hero .container .container-hero {
         display: flex;
-        text-align: center;
-        width: 100%;
+        text-align: left;
         height: 100%; }
         header .hero .container .container-hero h3, header .hero .container .container-hero h1 {
           font-weight: 700;
@@ -56,13 +55,14 @@ header {
               box-shadow: 7px 10px 8px 0px rgba(94, 93, 0, 0.301); }
   @media (min-width: 768px) {
     header .hero .container {
+      background-image: url(../../img/hero-tablet.png);
       background-position: bottom right;
       background-repeat: no-repeat;
       background-size: 45%;
       align-items: flex-start;
       justify-content: center; }
       header .hero .container .container-hero {
-        justify-content: center;
+        margin: 0 0 0 100px;
         align-items: center; }
         header .hero .container .container-hero .content {
           margin: 0 100px 0 0; }
@@ -84,9 +84,9 @@ header {
             width: 100%; } }
   @media (max-width: 767px) {
     header .hero .container .container-hero {
+      background-image: url(../../img/hero-mobile.jpg);
       background-size: cover;
       background-position: center;
-      background-color: rgba(40, 11, 63, 0.56);
       background-blend-mode: overlay;
       height: 100vh;
       display: flex;
@@ -462,8 +462,8 @@ header {
             opacity: 0; } }
     .navbar .container .line {
       fill: none;
-      stroke: #f5f5f5;
-      stroke-width: 6;
+      stroke: black;
+      stroke-width: 8;
       transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1), stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1); }
     .navbar .container .line1 {
       stroke-dasharray: 60 207;
@@ -523,7 +523,6 @@ header {
     height: 50px; }
     .navbar .container .logo img {
       width: 45px;
-      height: 38px;
       margin: 2px 10px 2px 20px; }
     .navbar .container .logo h1 {
       font-size: 1rem; }
@@ -878,21 +877,19 @@ section {
 section .sobreMi .firstSection {
   padding: 7em 0 0em 0;
   display: flex;
-  background-image: url(../../img/hero-tablet.png);
-  background-position: bottom right;
-  background-repeat: no-repeat; }
+  justify-content: center; }
   section .sobreMi .firstSection .container-content {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     color: whitesmoke;
-    margin: 0 100px 0 0; }
+    margin: 0; }
     section .sobreMi .firstSection .container-content h1 {
       font-weight: 700;
       letter-spacing: 1px;
       padding: 10px 0;
-      font-size: 1.8rem;
+      font-size: 2rem;
       text-transform: uppercase;
       margin: 0 0 10px 0; }
     section .sobreMi .firstSection .container-content h2 {
@@ -900,14 +897,14 @@ section .sobreMi .firstSection {
       letter-spacing: 1px;
       padding: 10px 0;
       font-size: 1.6rem;
-      margin: 0 0 10px 0; }
+      margin: 0 0 25px 0; }
     section .sobreMi .firstSection .container-content p {
-      width: 700px;
+      max-width: 700px;
       text-align: left;
       letter-spacing: 1.7px;
       font-size: 1.1rem;
       line-height: 25px;
-      padding: 0 0 20px 0;
+      padding: 0 20px 100px 20px !important;
       color: whitesmoke; }
 
 .quote {
@@ -1032,3 +1029,19 @@ button:active:after {
 
 a {
   text-decoration: none; }
+
+.trigger-p {
+  max-width: 600px;
+  font-size: 20px !important;
+  padding: 20px 15px !important; }
+
+.ac-trigger {
+  text-align: center !important; }
+
+.info-contacto {
+  max-width: 550px;
+  padding: 1em 1.5em;
+  letter-spacing: 2px;
+  line-height: 25px;
+  font-size: 1rem;
+  text-align: center; }
