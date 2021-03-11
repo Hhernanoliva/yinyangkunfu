@@ -16,8 +16,7 @@ header{
             background-attachment: fixed;
             .container-hero{
                 display: flex;
-                text-align: center;
-                width: 100%;
+                text-align: left;
                 height: 100%;
                 h3, h1{
                     font-weight: 700;
@@ -68,14 +67,15 @@ header{
         .hero{
             
             .container{
-                // background-image: url(../../img/hero-tablet.png);
+                background-image: url(../../img/hero-tablet.png);
                 background-position: bottom right;
                 background-repeat: no-repeat; 
                 background-size: 45%;
                 align-items: flex-start;
                 justify-content: center;
                 .container-hero{
-                    justify-content: center;
+                    margin: 0 0 0 100px;
+                    // justify-content: center;
                     align-items: center;
                     .content{
                             margin: 0 100px 0 0;
@@ -112,10 +112,9 @@ header{
         .hero{
             .container{
                 .container-hero{
-                    // background-image: url(../../img/hero-mobile.jpg);
+                    background-image: url(../../img/hero-mobile.jpg);
                     background-size: cover;
                     background-position: center;
-                    background-color: rgba(40, 11, 63, 0.56);
                     background-blend-mode: overlay;
                     height: 100vh;
                     display: flex;

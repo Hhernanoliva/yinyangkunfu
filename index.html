@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./node_modules/glide-3.4.1/dist/css/glide.core.min.css">
     <link rel="stylesheet" href="./node_modules/glide-3.4.1/dist/css/glide.theme.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/accordion-js@3.1.1/dist/accordion.min.css">
     <link href="./css/hover.css" rel="stylesheet" media="all">
     <link rel="stylesheet" href="./css/style.css">
     <script type="text/javascript" src="./app.js"></script>
@@ -45,7 +46,7 @@
                 <a class="navbar-list" href="#contacto">Contacto</a>
             </div>
             <button id="button" class="buttonBurguer btn-burger" aria-label="Main Menu">
-                <svg width="30" height="30" viewBox="0 0 100 100">
+                <svg width="30" height="30" viewBox="0 0 100 100" >
                     <path class="line line1" d="M 20,29.000046 H 80.000231 
                 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 
                 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 
@@ -76,9 +77,6 @@
                                 <button class="hvr-glow">CONTACTANOS</button>
 
                             </div>
-                        </div>
-                        <div class="content-logo">
-                            <img src="./img/logoHi.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -160,38 +158,58 @@
                     </div>
                 </div>
                 <div class="container-modalidad">
-                    <div class="modalidad">
-                        <div class="container-card">
-                            <div class="card">
-                                <h4>Cursos y seminarios:</h4>
-                                <p> Eventos a programar con temas específicos para poder profundizar acerca de los
-                                    conocimientos que se brindan en la escuela.
-                                    Ofrecemos la posibilidad de llevar esta propuesta tanto al interior del país como
-                                    también al exterior. Cualquier inquietud consultenos.
-                                </p>
-                            </div>
-                            <div class="card">
-                                <h4>Estudio a distancia:</h4>
-                                <p> Una modalidad para todos aquellos que desean aprender pero no pueden concurrir a
-                                    clases regulares debido a encontrarse en otra región o ciudad.
-                                    Diseñamos un programa para que puedas aprender de la mejor manera.
-                                </p>
-                            </div>
-                            <div class="card">
-                                <h4>Clases Online:</h4>
-                                <p> Opcion tomada por el momento que atravesamos de pandemia mundial.
-                                    Las clases son personalizadas individuales, dictadas por la plataforma Zoom
-                                </p>
-                            </div>
-                            <div class="card">
-                                <h4>Instrucción personalizada:</h4>
-                                <p>Clases uno a uno para todos aquellos estudiantes que deseen una formación
-                                    personalizada y
-                                    una transmisión óptima de los conocimientos.
-                                </p>
-                            </div>
-                        </div>
+                    <div class="info">
+                        <p>Haz click para ver la información</p>
                     </div>
+                    <div class="accordion-container">
+                        <div class="ac">
+                          <h2 class="ac-header">
+                            <button class="ac-trigger">Cursos y seminarios</button>
+                          </h2>
+                          <div class="ac-panel">
+                            <p class="ac-text trigger-p">Eventos a programar con temas específicos para poder profundizar acerca de los
+                                conocimientos que se brindan en la escuela.
+                                Ofrecemos la posibilidad de llevar esta propuesta tanto al interior del país como
+                                también al exterior. Cualquier inquietud consultenos.</p>
+                          </div>
+                        </div>
+                      
+
+                        <div class="ac">
+                          <h2 class="ac-header">
+                            <button class="ac-trigger">Estudio a distancia</button>
+                          </h2>
+                          <div class="ac-panel">
+                            <p class="ac-text trigger-p"> Una modalidad para todos aquellos que desean aprender pero no pueden concurrir a
+                                clases regulares debido a encontrarse en otra región o ciudad.
+                                Diseñamos un programa para que puedas aprender de la mejor manera.</p>
+                          </div>
+                        </div>
+                      
+                        <div class="ac">
+                          <h2 class="ac-header">
+                            <button class="ac-trigger ">Clases Online</button>
+                          </h2>
+                          <div class="ac-panel">
+                            <p class="ac-text trigger-p"> Opcion tomada por el momento que atravesamos de pandemia mundial.
+                                Las clases son personalizadas individuales, dictadas por la plataforma Zoom.</p>
+                          </div>
+                        </div>
+                        <div class="ac">
+                            <h2 class="ac-header">
+                              <button class="ac-trigger">Instrucción personalizada</button>
+                            </h2>
+                            <div class="ac-panel">
+                              <p class="ac-text trigger-p">Clases uno a uno para todos aquellos estudiantes que deseen una formación
+                                personalizada y
+                                una transmisión óptima de los conocimientos.</p>
+                            </div>
+                          </div>
+                      </div>
+                </div>
+                <div class="info-contacto"  >  
+                       <p> Para realizar cursos, clases y/o seminarios </p>
+                       <a href="https://wa.link/5izie1" target="_blank"><button>Contactanos por whatsapp</button></a><br>  
                 </div>
             </main>
         </section>
@@ -243,7 +261,7 @@
                                 Hsu</strong> en Argentina.
 
                         </p>
-                       <a href="./sobreMi.html"> <button>Más Información</button></a>
+
                     </div>
                 </div>
             </div>
@@ -251,7 +269,7 @@
                 <div class="container-content">
                     <h4>Informacion sobre el Kung Fu</h4>
                     <div class="mini-card">
-                        <button>Articulos</button>
+                        <!-- <button>Articulos</button> -->
                         <button>Que es el Kung Fu</button>
                         <button>Teoria del Yin y el Yang</button>
                     </div>
@@ -332,7 +350,7 @@
 
     </section>
     </div>
-
+    <script src="https://unpkg.com/accordion-js@3.1.1/dist/accordion.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.0.2/glide.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </body>
