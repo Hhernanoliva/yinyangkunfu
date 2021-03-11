@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="copyright" content="">
+    <link rel="shortcut icon" href="./img/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="./css/hover.css" rel="stylesheet" media="all">
+    <link rel="stylesheet" href="./node_modules/glide-3.4.1/dist/css/glide.core.min.css">
+    <link rel="stylesheet" href="./node_modules/glide-3.4.1/dist/css/glide.theme.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script type="text/javascript" src="./app.js"></script>
+    <title>Escuela Tradicional | Yin Yang Kung Fu</title>
+</head>
+
+<body onload="load()">
+
+    <div class="menu-modal">
+        <a class="cerrarModal" href="#clases">Clases</a>
+        <a class="cerrarModal" href="#escuela">Escuela</a>
+        <a class="cerrarModal" href="#contacto">Contacto</a>
+        <a href=""><button class="btn-copy" onclick="location.href='mailto:';">CALL TO ACTION</button></a>
+    </div>
+
+    <!--NAVBAR-->
+
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="./index.html"> <img src="./img/logo.png" alt=""></a>
+                <a href="./index.html">
+                    <h3 class="logo">YIN YANG KUNG FU</h3>
+                </a>
+            </div>
+            <div id="menu" class="menu">
+                <a class="navbar-list" href="./index.html#clases">Clases</a>
+                <a class="navbar-list" href="./index.html#escuela">Escuela</a>
+                <a class="navbar-list" href="./index.html#contacto">Contacto</a>
+            </div>
+            <button id="button" class="buttonBurguer btn-burger" aria-label="Main Menu">
+                <svg width="30" height="30" viewBox="0 0 100 100">
+                    <path class="line line1" d="M 20,29.000046 H 80.000231 
+                C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 
+                94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 
+                79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 
+                L 25.000021,25.000058" />
+                    <path class="line line2" d="M 20,50 H 80" />
+                    <path class="line line3" d="M 20,70.999954 H 80.000231 
+                C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 
+                94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 
+                79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 
+                L 25.000021,74.999942" />
+                </svg>
+            </button>
+        </div>
+    </nav>
+    <section>
+        <div id="eduardo" class="eduardo">
+            <div class="section-eduardo">
+                <div class="container-content-eduardo">
+                    <h1>Eduardo Mompel, Director Escuela Yin Yang Kung Fu</h1>
+                    <p class="p-eduardo">
+                        En el 2003 comienza su practica de Kung Fu en la Escuela Chin Wan del Maestro Claudio Di Renzo en el estilo Hung Gar, buscando descubrir una actividad que aparte de los obvios beneficios físicos lo cultivara en los profundos valores de las artes marciales tradicionales Chinas.
+                        Luego de un periodo en la Escuela y debido al alejamiento de su profesor Ricardo Donadio de la entidad decide seguir a este y juntos buscar un nuevo camino. Aventurado en esta empresa viaja hasta la Ciudad de Rafaela en la provincia de Santa Fe motivado por conocer al representante de la Escuela Wing Lam Argentina, Gabriel Caceres, estudiante directo del Gran Maestro Kwong Wing Lam.
+                        ﻿
+                        A partir de entonces encuentra la escuela que cubría sus necesidades de aprendizaje y comienza su programa de entrenamiento intensivo viajando todos los meses del año para seguir el programa de la Escuela, entrenando con Sifu Caceres los sistemas Hung Gar ,Tai Chi Chuen Yang y Sun.
+                        ﻿
+                        En agosto del 2008 viaja como parte de una comitiva de 10 personas a el Kwoon central del Maestro Wing Lam (Silicion Valley, California, USA) con motivo del Festejo de los 60 años del Maestro y la ceremonia Bai see de sus discípulos. Durante el viaje se entrenó intensamente en los estilos de la escuela.
+                         
+                        A comienzos del 2013 deja de formar parte de dicha institución y comienza un nuevo camino emprendiendo su proyecto de escuela y con nuevos rumbos para continuar con su instrucción bajo las órdenes del Maestro Jen Cheng Chen, Instructor de la Escuela del Maestro Adam Hsu, especialista en estilos del Norte de China aprendiendo los sistemas Chang Quan y demás estilos de estudio de la escuela Keng Wu hasta la actualidad.
+                        
+                    </p>
+                </div>
+                <div class="container-img-eduardo">
+                    <img src="./img/hero.png" alt="">
+                </div>   
+            </div>
+        </section>
+            </div>
+
+
+    <!-- FOOTER -->
+
+    <section class="footer">
+        <p>© Copyright 2020 | YIN YANG KUNG FU</p>
+        <p>Diseño y Desarrollo Web |<a href="https://frontcatdev.web.app/" target="_blank"> FrontCat</a><span><img
+                    src="./img/frontcat.svg" alt=""></span></p>
+    </section>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.0.2/glide.js"></script>
+    <script>
+
+        new Glide('.gliderr', {
+            type: 'carousel',
+            autoplay: 3000,
+            focusAt: 'center',
+            gap: 0
+        }).mount();
+    </script>
+</body>
+
+</html>
